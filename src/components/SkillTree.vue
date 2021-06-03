@@ -20,7 +20,7 @@
             class="cursor-pointer">
               <span class="font-bold">{{perk.name}}</span>
               <span class="ml-1 text-sm">{{perk.description}}</span>
-              <span class="ml-1 text-sm font-medium">({{perk.chosen}} of {{perk.steps}})</span>
+              <span class="ml-1 font-medium">({{perk.chosen}} of {{perk.steps}})</span>
           </li>
         </ul>
     </div>
