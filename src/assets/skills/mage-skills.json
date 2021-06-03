@@ -1,0 +1,82 @@
+{
+  "skills": [
+    {
+      "name": "Illusion",
+      "perksTaken": 0,
+      "perks": [
+        {
+          "name": "Novice Illusion",
+          "description": "Cast novice level illusion spells for half magicka.",
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Illusion Dual Casting",
+          "description": "Dual casting an illusion spell overcharges the effects into a more powerful version.",
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Hypnotic Gaze",
+          "description": "Calm spells now work on higher level opponents",
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Aspect of Terror",
+          "description": "Fear spells now work on higher level opponents",
+          "steps": 1,
+          "chosen": 0
+        }
+      ]
+    },
+    {
+      "name": "Conjuration",
+      "perksTaken": 0,
+      "perks": [
+        {
+          "name": "Novice Conjuration",
+          "description": "Cast novice level conjuration spells for half magicka.",
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Summoner",
+          "description": "1: Can summon atronachs or raise undead twice as far away. 2: Can summon atronachs or raise undead three times as far away.",
+          "steps": 2,
+          "chosen": 0
+        },
+        {
+          "name": "Necromancy",
+          "description": "Greater duration for reanimated undead",
+          "steps": 1,
+          "chosen": 0
+        }
+      ]
+    },
+    {
+      "name": "Destruction",
+      "perksTaken": 0,
+      "perks": [
+        {
+          "name": "Augmented Flames",
+          "description": "1: Fire spells do 25% more damage. 2: Fire spells do 50% more damage.",
+          "steps": 2,
+          "chosen": 0
+        },
+        {
+          "name": "Augmented Frost",
+          "description": "1: Frost spells do 25% more damage. 2: Frost spells do 50% more damage.",
+          "steps": 2,
+          "chosen": 0
+        },
+        {
+          "name": "Augmented Shock",
+          "description": "1: Shock spells do 25% more damage. 2: Shock spells do 50% more damage.",
+          "steps": 2,
+          "chosen": 0
+        }
+      ]
+    }
+  ]
+}

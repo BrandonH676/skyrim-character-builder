@@ -1,7 +1,9 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <keep-alive><router-link to="/">Home</router-link></keep-alive> |
+    <keep-alive><router-link to="/mage">Mage</router-link></keep-alive> |
+    <keep-alive><router-link to="/warrior">Warrior</router-link></keep-alive> |
+    <keep-alive><router-link to="/thief">Thief</router-link></keep-alive>
   </div>
   <router-view />
 </template>

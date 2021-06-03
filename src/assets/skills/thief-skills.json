@@ -1,0 +1,76 @@
+{
+  "skills": [
+    {
+      "name": "Light Armor",
+      "perksTaken": 0,
+      "perks": [
+        {
+          "name": "Agile Defender",
+          "description": "1: Increase armor rating for light aromor by 20%. 2: Increase armor rating for light aromor by 40%. 3: Increase armor rating for light aromor by 60%. 4: Increase armor rating for light aromor by 80%. 5: Increase armor rating for light aromor by 100%.",
+          "steps": 5,
+          "chosen": 0
+        },
+        {
+          "name": "Custom Fit",
+          "description": "25% armor bonus if wearing all light armor: head, chest, hands, feet.",
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Unhindered",
+          "description": "Light Armor weights nothing and doesn't slow you down when worn.",
+          "steps": 1,
+          "chosen": 0
+        }
+      ]
+    },
+    {
+      "name": "Sneak",
+      "perksTaken": 0,
+      "perks": [
+        {
+          "name": "Stealth",
+          "description": "1: You are 20% harder to detect when sneaking. 2: You are 25% harder to detect when sneaking. 3: You are 30% harder to detect when sneaking. 4: You are 35% harder to detect when sneaking. 5: You are 40% harder to detect when sneaking.",
+          "steps": 5,
+          "chosen": 0
+        },
+        {
+          "name": "Backstab",
+          "description": "Sneak attacks with one=handed weapons now do six times damage.",
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Deadly Aim",
+          "description": "Sneak attacks with bows now do three times damage.",
+          "steps": 1,
+          "chosen": 0
+        }
+      ]
+    },
+    {
+      "name": "Lockpicking",
+      "perksTaken": 0,
+      "perks": [
+        {
+          "name": "Novice Locks",
+          "description": "Novice locks are much easier to pick",
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Apprentice Locks",
+          "description": "Apprentice locks are much easier to pick.",
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Quick Hands",
+          "description": "Able to pick locks without being noticed.",
+          "steps": 1,
+          "chosen": 0
+        }
+      ]
+    }
+  ]
+}

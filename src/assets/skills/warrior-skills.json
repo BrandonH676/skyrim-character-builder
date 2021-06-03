@@ -1,0 +1,88 @@
+{
+  "skills": [
+    {
+      "name": "One-Handed",
+      "perksTaken": 0,
+      "perks": [
+        {
+          "name": "Armsman",
+          "description": "1: One-handed weapons do 20% more damage. 2: One-handed weapons do 40% more damage. 3: One-handed weapons do 60% more damage. 4: One-handed weapons do 80% more damage. 5: One-handed weapons do 100% more damage.",
+          "steps": 5,
+          "chosen": 0
+        },
+        {
+          "name": "Fighting Stance",
+          "description": "Power attacks with one-handed weapons cost 25% less stamina.",
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Dual Savagery",
+          "description": "Dual wielding power attacks do 50% bonus damage.",
+          "steps": 1,
+          "chosen": 0
+        }
+      ]
+    },
+    {
+      "name": "Archery",
+      "perksTaken": 0,
+      "perks": [
+        {
+          "name": "Overdraw",
+          "description": "1: Bows do 20% more damage. 2: Bows do 40% more damage. 3: Bows do 60% more damage. 4: Bows do 80% more damage. 5: Bows do 100% more damage.",
+          "steps": 5,
+          "chosen": 0
+        },
+        {
+          "name": "Critical Shot",
+          "description": "1: 10% chance of a critical hit that does extra damage. 2: 15% chance of a critical hit that does 25% more critical damage. 3: 20% chance of a critical hit that does 50% more critical damage.",
+          "steps": 3,
+          "chosen": 0
+        },
+        {
+          "name": "Ranger",
+          "description": "Able to move faster with a drawn bow.",
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Eagle Eye",
+          "description": "Pressing block while aiming will zoom in your view.",
+          "steps": 1,
+          "chosen": 0
+        }
+      ]
+    },
+    {
+      "name": "Smithing",
+      "perksTaken": 0,
+      "perks": [
+        {
+          "name": "Steel Smithing",
+          "description": "Can create steel armor and weapons at forges, and improve them twice as much.",
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Arcane Blacksmith",
+          "description": "You can improve magical weapons and armor.",
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Dwarven Smithing",
+          "description": "Can create Dwarven armor and weapons at forges, and improve them twice as much.",
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Elven Smithing",
+          "description": "Can create Elven armor and weapons at forges, and improve them twice as much.",
+          "steps": 1,
+          "chosen": 0
+        }
+      ]
+    }
+  ]
+}
