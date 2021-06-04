@@ -13,8 +13,30 @@
     </div>
   </div>
 
+  <Total />
+
+  <div class="mt-4">
+    <button
+      @click="clearPerks()">
+      Clear all Perks
+    </button>
+  </div>
+
 </template>
 
 <script>
+import Total from '@/components/Total.vue';
+
+export default {
+  name: "Home",
+  components: {
+    Total
+  },
+  methods: {
+    clearPerks() {
+      this.$store.dispatch('ResetAll')
+    }
+  }
+}
 
 </script>

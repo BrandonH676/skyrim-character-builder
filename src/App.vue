@@ -1,5 +1,5 @@
 <template>
-  <div id="nav">
+  <div id="nav" class="font-montserrat">
     <keep-alive><router-link to="/">Home</router-link></keep-alive> |
     <keep-alive><router-link to="/warrior">Warrior</router-link></keep-alive> |
     <keep-alive><router-link to="/thief">Thief</router-link></keep-alive> |

@@ -1,8 +1,14 @@
 import { createStore } from "vuex";
+import warriorSkills from "@/assets/skills/warrior-skills.json";
+import mageSkills from "@/assets/skills/mage-skills.json";
+import thiefSkills from "@/assets/skills/thief-skills.json";
 
 export default createStore({
   state: {
-    totalPerks: 0
+    totalPerks: 0,
+    warriorSkillTree: warriorSkills.skills,
+    mageSkillTree: mageSkills.skills,
+    thiefSkillTree: thiefSkills.skills
   },
   mutations: {
     INCREMENT_PERKS(state) {
@@ -10,8 +16,26 @@ export default createStore({
     },
     DECREMENT_PERKS(state, value) {
       state.totalPerks -= value
+    },
+    CLEAR_TOTAL_PERKS(state) {
+      state.totalPerks = 0
+    },
+    CLEAR_ALL_SKILLS(state) {
+      // Todo make more dry?
+      state.warriorSkillTree.forEach(skill => skill.perksTaken = 0)
+      state.warriorSkillTree.forEach(skill => skill.perks.forEach(perk => perk.chosen = 0))
+
+      state.mageSkillTree.forEach(skill => skill.perksTaken = 0)
+      state.mageSkillTree.forEach(skill => skill.perks.forEach(perk => perk.chosen = 0))
+
+      state.thiefSkillTree.forEach(skill => skill.perksTaken = 0)
+      state.thiefSkillTree.forEach(skill => skill.perks.forEach(perk => perk.chosen = 0))
     }
   },
-  actions: {},
-  modules: {},
+  actions: {
+    ResetAll({commit}) {
+      commit('CLEAR_TOTAL_PERKS')
+      commit('CLEAR_ALL_SKILLS')
+    }
+  }
 });

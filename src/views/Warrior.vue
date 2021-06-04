@@ -15,7 +15,6 @@
 <script>
 import SkillTree from '@/components/SkillTree.vue';
 import Total from '@/components/Total.vue';
-import json from "@/assets/skills/warrior-skills.json";
 
 export default {
   name: "Warrior",
@@ -25,7 +24,7 @@ export default {
   },
   data() {
     return {
-      skills: json.skills
+      skills: this.$store.state.warriorSkillTree
     }
   }
 }

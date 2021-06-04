@@ -9,7 +9,14 @@ module.exports = {
     container: {
       center: true,
     },
-    extend: {},
+    fontFamily: {
+      montserrat: ['Montserrat, sans-serif']
+    },
+    extend: {
+      screens: {
+        '2xl': '1440px'
+      }
+    },
   },
   variants: {
     extend: {},
