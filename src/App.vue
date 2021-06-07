@@ -1,32 +1,17 @@
 <template>
-  <div id="nav" class="font-montserrat">
-    <keep-alive><router-link to="/">Home</router-link></keep-alive> |
-    <keep-alive><router-link to="/warrior">Warrior</router-link></keep-alive> |
-    <keep-alive><router-link to="/thief">Thief</router-link></keep-alive> |
-    <keep-alive><router-link to="/mage">Mage</router-link></keep-alive>
-  </div>
-  <router-view />
+  <section class="h-screen overflow-scroll text-gray-300 bg-blue-900 font-montserrat">
+
+    <div id="nav" class="flex justify-center p-4 text-sm font-medium tracking-widest text-center">
+      <keep-alive><router-link to="/">Home</router-link></keep-alive>
+      <span class="mx-2">|</span>
+      <keep-alive><router-link to="/warrior">Warrior</router-link></keep-alive>
+      <span class="mx-2">|</span>
+      <keep-alive><router-link to="/thief">Thief</router-link></keep-alive>
+      <span class="mx-2">|</span>
+      <keep-alive><router-link to="/mage">Mage</router-link></keep-alive>
+    </div>
+
+    <router-view />
+
+  </section>
 </template>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
-</style>

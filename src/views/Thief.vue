@@ -1,26 +1,22 @@
 <template>
-  <div>
+  <div class="container">
 
-    <h1 class="font-bold mb-3">
+    <h1 class="w-11/12 mx-auto mb-6 text-xl font-bold text-center">
       This is the Thief skill tree
     </h1>
 
     <SkillTree :skills="skills"/>
-
-    <Total />
 
   </div>
 </template>
  
 <script>
 import SkillTree from '@/components/SkillTree.vue';
-import Total from '@/components/Total.vue';
 
 export default {
   name: "Thief",
   components: {
-    SkillTree,
-    Total
+    SkillTree
   },
   data() {
     return {
