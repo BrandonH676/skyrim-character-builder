@@ -17,10 +17,9 @@ export default createStore({
     DECREMENT_PERKS(state, value) {
       state.totalPerks -= value
     },
-    CLEAR_TOTAL_PERKS(state) {
-      state.totalPerks = 0
-    },
     CLEAR_ALL_SKILLS(state) {
+      state.totalPerks = 0
+
       // Todo make more dry?
       state.warriorSkillTree.forEach(skill => skill.perksTaken = 0)
       state.warriorSkillTree.forEach(skill => skill.perks.forEach(perk => perk.chosen = 0))
@@ -34,7 +33,6 @@ export default createStore({
   },
   actions: {
     ResetAll({commit}) {
-      commit('CLEAR_TOTAL_PERKS')
       commit('CLEAR_ALL_SKILLS')
     }
   }
