@@ -28,7 +28,7 @@
     <div
       v-if="activeSkillTree"
       class="w-full mt-10 md:w-1/2 md:mt-0 lg:w-7/12">
-        <ul class="flex flex-col md:pl-6 lg:pl-10 xl:pl-12">
+        <ul class="flex flex-col text-sm md:pl-6 lg:pl-10 xl:pl-12">
 
           <li
             v-for="perk in activeSkillTree.perks"

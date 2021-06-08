@@ -1,13 +1,225 @@
 {
   "skills": [
     {
+      "name": "Conjuration",
+      "perksTaken": 0,
+      "perks": [
+        {
+          "name": "Novice Conjuration",
+          "description": [
+            "Cast novice level Conjuration spells for half magicka"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Apprentice Conjuration",
+          "description": [
+            "Cast apprentice level Conjuration spells for half magicka"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Mystic Binding",
+          "description": [
+            "Bound weapons do more damage"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Conjuration Dual Casting",
+          "description": [
+            "Dual casting a Conjuration spell overcharges the spell, allowing it to last longer"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Summoner",
+          "description": [
+            "Can summon atronachs or raise undead twice as far away",
+            "Next Rank: Can summon atronachs or raise undead three times as far away",
+            "Can summon atronachs or raise undead three times as far away"
+          ],
+          "steps": 2,
+          "chosen": 0
+        },
+        {
+          "name": "Adept Conjuration",
+          "description": [
+            "Cast Adept level Conjuration spells for half magicka"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Soul Stealer",
+          "description": [
+            "Bound weapons cast Soul Trap on targets"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Necromancy",
+          "description": [
+            "Greater duration for reanimated undead"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Atromancy",
+          "description": [
+            "Double duration for conjured Atronachs"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Expert Conjuration",
+          "description": [
+            "Cast expert level Conjuration spells for half magicka"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Oblivion Binding",
+          "description": [
+            "Bound weapons will banish summoned creatures and turn raised ones"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Dark Souls",
+          "description": [
+            "Reanimated undead have 100 points more health"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Elemental Potencey",
+          "description": [
+            "Conjured Atronachs are 50% more powerful"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Master Conjuration",
+          "description": [
+            "Cast master level Conjuration spells for half magicka"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Twin Souls",
+          "description": [
+            "You can have two atronachs or reanimated zombies"
+          ],
+          "steps": 1,
+          "chosen": 0
+        }
+      ]
+    },
+    {
+      "name": "Destruction",
+      "perksTaken": 0,
+      "perks": [
+        {
+          "name": "Novice Destruction",
+          "description": [
+            "Cast novice level Destruction spells for half magicka"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Destruction Dual Casting",
+          "description": [
+            "Dual casting a Destruction spell overcharges the effects into an even more powerful version"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Impact",
+          "description": [
+            "Most destruction spells will stagger an opponent when dual cast"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Apprentice Destruction",
+          "description": [
+            "Cast Apprentice level Destruction spells for half magicka"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Rune Master",
+          "description": [
+            "Can place runes five times farther away"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Augmented Shock",
+          "description": [
+            "Shock spells do 25% more damage",
+            "Next Rank: Shock spells do 50% more damage",
+            "Shock spells do 50% more damage"
+          ],
+          "steps": 2,
+          "chosen": 0
+        },
+        {
+          "name": "Augmented Frost",
+          "description": [
+            "Frost spells do 25% more damage",
+            "Next Rank: Frost spells do 50% more damage",
+            "Frost spells do 50% more damage"
+          ],
+          "steps": 2,
+          "chosen": 0
+        },
+        {
+          "name": "Augmented Flames",
+          "description": [
+            "Fire spells do 25% more damage",
+            "Next Rank: Fire spells do 50% more damage",
+            "Fire spells do 50% more damage"
+          ],
+          "steps": 2,
+          "chosen": 0
+        },
+        {
+          "name": "Adept Destruction",
+          "description": [
+            "Cast Adept level Destruction spells for half magicka"
+          ],
+          "steps": 1,
+          "chosen": 0
+        }
+      ]
+    },
+    {
       "name": "Illusion",
       "perksTaken": 0,
       "perks": [
         {
           "name": "Novice Illusion",
           "description": [
-            "Cast novice level illusion spells for half magicka."
+            "Cast novice level Illusion spells for half magicka"
           ],
           "steps": 1,
           "chosen": 0
@@ -15,7 +227,15 @@
         {
           "name": "Illusion Dual Casting",
           "description": [
-            "Dual casting an illusion spell overcharges the effects into a more powerful version."
+            "Dual casting an Illusion spell overcharges the effects into a more powerful version"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Animage",
+          "description": [
+            "Illusion spells now work on higher level animals"
           ],
           "steps": 1,
           "chosen": 0
@@ -29,79 +249,75 @@
           "chosen": 0
         },
         {
+          "name": "Apprentice Illusion",
+          "description": [
+            "Cast apprentice level Illusion spells for half magicka"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Kindred Mage",
+          "description": [
+            "All Illusion spells work on higher level people"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
           "name": "Aspect of Terror",
           "description": [
             "Fear spells now work on higher level opponents"
           ],
           "steps": 1,
           "chosen": 0
-        }
-      ]
-    },
-    {
-      "name": "Conjuration",
-      "perksTaken": 0,
-      "perks": [
+        },
         {
-          "name": "Novice Conjuration",
+          "name": "Adept Illusion",
           "description": [
-            "Cast novice level conjuration spells for half magicka."
+            "Cast adept level Illusion spells for half magicka"
           ],
           "steps": 1,
           "chosen": 0
         },
         {
-          "name": "Summoner",
+          "name": "Quiet Casting",
           "description": [
-            "Can summon atronachs or raise undead twice as far away.",
-            "Next Rank: Can summon atronachs or raise undead three times as far away.",
-            "Can summon atronachs or raise undead three times as far away."
-          ],
-          "steps": 2,
-          "chosen": 0
-        },
-        {
-          "name": "Necromancy",
-          "description": [
-            "Greater duration for reanimated undead"
+            "All spells you cast from any school of magic are silent to others"
           ],
           "steps": 1,
           "chosen": 0
-        }
-      ]
-    },
-    {
-      "name": "Destruction",
-      "perksTaken": 0,
-      "perks": [
+        },
         {
-          "name": "Augmented Flames",
+          "name": "Rage",
           "description": [
-            "Fire spells do 25% more damage.",
-            "Next Rank: Fire spells do 50% more damage.",
-            "Fire spells do 50% more damage."
+            "Frenzy spells work on higher level opponents. Cumulative with Kindred Mage and Animage"
           ],
-          "steps": 2,
+          "steps": 1,
           "chosen": 0
         },
         {
-          "name": "Augmented Frost",
+          "name": "Expert Illusion",
           "description": [
-            "Frost spells do 25% more damage.",
-            "Next Rank: Frost spells do 50% more damage.",
-            "Frost spells do 50% more damage."
+            "Cast expert level Illusion spells for half magicka"
           ],
-          "steps": 2,
+          "steps": 1,
           "chosen": 0
         },
         {
-          "name": "Augmented Shock",
+          "name": "Master of the Mind",
           "description": [
-            "Shock spells do 25% more damage.",
-            "Next Rank: Shock spells do 50% more damage.",
-            "Shock spells do 50% more damage."
+            "Illusion spells work on undead, daedra, and automotons"
           ],
-          "steps": 2,
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Master Illusion",
+          "description": [
+            "Cast master level Illusion spells for half magicka"
+          ],
+          "steps": 1,
           "chosen": 0
         }
       ]
