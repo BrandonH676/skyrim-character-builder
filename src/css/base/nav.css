@@ -5,7 +5,11 @@
     padding-bottom: 0.05rem;
   }
 
+  a:hover {
+    @apply border-teal-200;
+  }
+
   a.router-link-active {
-    @apply text-gray-700 border-gray-700;
+    @apply text-teal-200 border-teal-200;
   }
 }

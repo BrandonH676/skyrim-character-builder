@@ -20,6 +20,10 @@ module.exports = {
         gray: {
           300: '#D6D6D6',
           700: '#939393'
+        },
+        teal: {
+          200: '#26A6AD',
+          500: '#198187'
         }
       },
       height: {
@@ -27,13 +31,38 @@ module.exports = {
       },
       screens: {
         '2xl': '1440px'
+      },
+      spacing: {
+        '75%': '75%',
+        '80%': '80%'
       }
     },
   },
   variants: {
     extend: {
-      display: ['group-hover', 'responsive']
+      backgroundColor: ['after', 'before'],
+      backgroundOpacity: ['after', 'before', 'hover'],
+      display: ['after', 'before', 'group-hover', 'responsive'],
+      height: ['after', 'before', 'responsive'],
+      inset: ['after', 'before', 'responsive'],
+      position: ['after', 'before', 'responsive'],
+      width: ['after', 'before', 'responsive']
     },
   },
-  plugins: [],
+   plugins: [
+    require("tailwindcss-pseudo-elements"),
+    function ({ addUtilities }) {
+      addUtilities(
+        {
+          ".empty-content": {
+            content: "''"
+          },
+          ".content-none": {
+            content: "none"
+          }
+        },
+        ["before", "after"]
+      );
+    }
+  ]
 }

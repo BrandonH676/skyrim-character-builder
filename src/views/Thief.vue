@@ -1,8 +1,8 @@
 <template>
-  <div class="container">
+  <div class="container mt-3">
 
-    <h1 class="w-11/12 mx-auto mb-6 text-xl font-bold text-center">
-      This is the Thief skill tree
+    <h1 class="w-11/12 mx-auto mb-6 text-xl font-bold tracking-wider text-center md:mb-8 lg:w-10/12 xl:text-2xl 2xl:w-3/4">
+      Thief Skills
     </h1>
 
     <SkillTree :skills="skills"/>

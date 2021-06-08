@@ -1,16 +1,19 @@
 <template>
 
-  <div class="mt-8 font-bold">
-    Total Perks Taken: {{this.$store.state.totalPerks}}
+  <div class="flex text-lg font-bold tracking-wider xl:text-xl">
+    <span>Total Perks Taken:</span>
+    <span class="ml-3">{{this.$store.state.totalPerks}}</span>
   </div>
 
-  <div class="mt-1 font-bold">
-    Character Level: {{this.$store.state.totalPerks + 1}}
+  <div class="flex mt-1 text-lg font-bold tracking-wider xl:text-xl">
+    <span>Required Character Level:</span>
+    <span class="ml-3">{{this.$store.state.totalPerks + 1}}</span>
   </div>
 
-  <div class="mt-4">
+  <div class="mt-5">
     <button
-      @click="clearPerks()">
+      @click="clearPerks()"
+      class="px-6 py-3 tracking-wider transition duration-100 bg-teal-500 rounded-lg ring-0 hover:bg-teal-200">
       Clear all Perks
     </button>
   </div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="w-11/12 pb-12 mx-auto md:flex lg:w-10/12 2xl:w-3/4">
+  <div class="w-11/12 pb-20 mx-auto md:flex lg:w-10/12 2xl:w-3/4">
 
     <!-- Skill Cards Wrapper -->
     <div class="grid w-full grid-cols-8 gap-4 md:w-1/2 md:h-none lg:w-5/12">
@@ -7,16 +7,18 @@
         v-for="skill in skills"
         :key="skill.name"
         @click="setActiveSkillTree(skill)"
-        class="flex flex-col col-span-4 px-4 py-12 text-center bg-gray-300 cursor-pointer select-none bg-opacity-40 rounded-xl xl:py-14">
-          <span class="mb-1 font-medium tracking-wide uppercase md:text-sm xl:text-base">
-            {{skill.name}}
-          </span>
-          <span class="text-lg font-medium tracking-wide md:text-base xl:text-lg">
-            {{skill.perksTaken}}
-          </span>
+        class="relative pb-75% col-span-4 px-4 text-center transition duration-100 bg-teal-200 cursor-pointer select-none bg-opacity-40 rounded-xl md:pb-80% lg:px-6 hover:bg-opacity-60">
+          <div class="absolute inset-0 flex flex-col items-center justify-center w-full h-full">
+            <span class="mb-1 text-base font-medium tracking-wide uppercase md:text-sm xl:text-base">
+              {{skill.name}}
+            </span>
+            <span class="text-lg font-medium tracking-wide md:text-base xl:text-lg">
+              {{skill.perksTaken}}
+            </span>
+          </div>
       </div>
 
-      <div class="hidden col-span-8 md:block">
+      <div class="hidden col-span-8 mt-6 md:block">
         <Total />
       </div>
     </div>
@@ -52,9 +54,17 @@
 
         </ul>
     </div>
+
+    <div
+      v-else
+      class="w-full mt-10 md:w-1/2 md:mt-0 lg:w-7/12">
+        <h2 class="text-lg font-medium tracking-wider md:pl-6 lg:pl-10 xl:pl-12 xl:text-xl">
+          Choose a skill to assign perk points.
+        </h2>
+    </div>
     <!-- Close Active Tree Wrapper -->
 
-    <div class="md:hidden">
+    <div class="mt-8 md:hidden">
       <Total />
     </div>
 
