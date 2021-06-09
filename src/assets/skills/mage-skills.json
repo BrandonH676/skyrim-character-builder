@@ -1,6 +1,98 @@
 {
   "skills": [
     {
+      "name": "Alteration",
+      "perksTaken": 0,
+      "perks": [
+        {
+          "name": "Novice Alteration",
+          "description": [
+            "Cast novice level Alteration spells for half magicka"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Alteration Dual Casting",
+          "description": [
+            "Dual casting an Alteration spell overcharges the effects into an even more powerful version"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Apprentice Alteration",
+          "description": [
+            "Cast apprentice level Alteration spells for half magicka"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Magic Resistance",
+          "description": [
+            "Blocks 10% of a spell's effect",
+            "Next Rank: Blocks 20% of a spell's effect",
+            "Next Rank: Blocks 30% of a spell's effect",
+            "Blocks 30% of a spell's effect"
+          ],
+          "steps": 3,
+          "chosen": 0
+        },
+        {
+          "name": "Mage Armor",
+          "description": [
+            "Protection spells like Stoneflesh are twice as strong if not wearing armor",
+            "Next Rank: Protection spells like Stoneflesh are 2.5 times as strong if not wearing armor",
+            "Next Rank: Protection spells like Stoneflesh are three times as strong if not wearing armor",
+            "Protection spells like Stoneflesh are three times as strong if not wearing armor"
+          ],
+          "steps": 3,
+          "chosen": 0
+        },
+        {
+          "name": "Adept Alteration",
+          "description": [
+            "Cast adept level Alteration spells for half magicka"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Expert Alteration",
+          "description": [
+            "Cast expert level Alteration spells for half magicka"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Stability",
+          "description": [
+            "Alteration spells have 50% greater duration"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Master Alteration",
+          "description": [
+            "Cast master level Alteration spells for half magicka"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Atronach",
+          "description": [
+            "Absorb 30% of the magicka of any spells that hit you"
+          ],
+          "steps": 1,
+          "chosen": 0
+        }
+      ]
+    },
+    {
       "name": "Conjuration",
       "perksTaken": 0,
       "perks": [
@@ -159,7 +251,7 @@
         {
           "name": "Apprentice Destruction",
           "description": [
-            "Cast Apprentice level Destruction spells for half magicka"
+            "Cast apprentice level Destruction spells for half magicka"
           ],
           "steps": 1,
           "chosen": 0
@@ -205,7 +297,130 @@
         {
           "name": "Adept Destruction",
           "description": [
-            "Cast Adept level Destruction spells for half magicka"
+            "Cast adept level Destruction spells for half magicka"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Expert Destruction",
+          "description": [
+            "Cast expert level Destruction spells for half magicka"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Disintegrate",
+          "description": [
+            "Shock spells disintegrate targets if their health is low (under 15%)"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Deep Freeze",
+          "description": [
+            "Frost damage paralyzes targets if their health is low (under 20%)"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Intense Flames",
+          "description": [
+            "Fire damage causes targets to flee if their health is low (under 20%)"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Master Destruction",
+          "description": [
+            "Cast master level Destruction spells for half magicka"
+          ],
+          "steps": 1,
+          "chosen": 0
+        }
+      ]
+    },
+    {
+      "name": "Enchanting",
+      "perksTaken": 0,
+      "perks": [
+        {
+          "name": "Enchanter",
+          "description": [
+            "New enchantments are 20% stronger",
+            "Next Rank: New enchantments are 40% stronger",
+            "Next Rank: New enchantments are 60% stronger",
+            "Next Rank: New enchantments are 80% stronger",
+            "Next Rank: New enchantments are 100% stronger",
+            "New enchantments are 100% stronger"
+          ],
+          "steps": 5,
+          "chosen": 0
+        },
+        {
+          "name": "Soul Squeezer",
+          "description": [
+            "Soul gems provide extra magicka for recharging"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Soul Siphon",
+          "description": [
+            "Death blows to creatures, but not people, trap 5% of the victim's soul, recharging the weapon"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Insightful Enchanter",
+          "description": [
+            "Skill enchantments on armor are 25% stronger"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Corpus Enchanter",
+          "description": [
+            "Health, magicka, and stamina enchantments on armor are 25% stronger"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Fire Enchanter",
+          "description": [
+            "Fire enchantments on weapons and armor are 25% stronger"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Frost Enchanter",
+          "description": [
+            "Frost enchantments on weapons and armor are 25% stronger"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Storm Enchanter",
+          "description": [
+            "Shock enchantments on weapons and armor are 25% stronger"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Extra Effect",
+          "description": [
+            "Can put two enchantments on the same item"
           ],
           "steps": 1,
           "chosen": 0
@@ -316,6 +531,110 @@
           "name": "Master Illusion",
           "description": [
             "Cast master level Illusion spells for half magicka"
+          ],
+          "steps": 1,
+          "chosen": 0
+        }
+      ]
+    },
+    {
+      "name": "Restoration",
+      "perksTaken": 0,
+      "perks": [
+        {
+          "name": "Novice Restoration",
+          "description": [
+            "Cast novice level Restoration spells for half magicka"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Restoration Dual Casting",
+          "description": [
+            "Dual casting a Restoration spell overcharges the effects into an even more powerful version"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Apprentice Restoration",
+          "description": [
+            "Cast apprentice level Restoration spells for half magicka"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Regeneration",
+          "description": [
+            "Healing spells cure 50% more"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Respite",
+          "description": [
+            "Healing spells also restore Stamina"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Recovery",
+          "description": [
+            "Magicka regenerates 25% faster",
+            "Next Rank: Magicka regenerates 50% faster",
+            "Magicka regenerates 50% faster"
+          ],
+          "steps": 2,
+          "chosen": 0
+        },
+        {
+          "name": "Avoid Death",
+          "description": [
+            "Once a day, heals 250 points automatically if you fall below 10% health"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Adept Restoration",
+          "description": [
+            "Cast adept level Restoration spells for half magicka"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Ward Absorb",
+          "description": [
+            "Wards recharge your magicka when hit with spells"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Necromage",
+          "description": [
+            "All spells are more effective against undead. (+25% effect and +50% effect duration)"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Expert Restoration",
+          "description": [
+            "Cast expert level Restoration spells for half magicka"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Master Restoration",
+          "description": [
+            "Cast master level Restoration spells for half magicka"
           ],
           "steps": 1,
           "chosen": 0
