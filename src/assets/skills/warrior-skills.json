@@ -1,41 +1,6 @@
 {
   "skills": [
     {
-      "name": "One-Handed",
-      "perksTaken": 0,
-      "perks": [
-        {
-          "name": "Armsman",
-          "description": [
-            "One-handed weapons do 20% more damage.",
-            "Next Rank: One-handed weapons do 40% more damage.",
-            "Next Rank: One-handed weapons do 60% more damage.",
-            "Next Rank: One-handed weapons do 80% more damage.",
-            "Next Rank: One-handed weapons do 100% more damage.",
-            "One-handed weapons do 100% more damage."
-          ],
-          "steps": 5,
-          "chosen": 0
-        },
-        {
-          "name": "Fighting Stance",
-          "description": [
-            "Power attacks with one-handed weapons cost 25% less stamina."
-          ],
-          "steps": 1,
-          "chosen": 0
-        },
-        {
-          "name": "Dual Savagery",
-          "description": [
-            "Dual wielding power attacks do 50% bonus damage."
-          ],
-          "steps": 1,
-          "chosen": 0
-        }
-      ]
-    },
-    {
       "name": "Archery",
       "perksTaken": 0,
       "perks": [
@@ -64,6 +29,14 @@
           "chosen": 0
         },
         {
+          "name": "Hunter's Discipline",
+          "description": [
+            "Recover twice as many arrows from dead bodies."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
           "name": "Ranger",
           "description": [
             "Able to move faster with a drawn bow."
@@ -75,6 +48,75 @@
           "name": "Eagle Eye",
           "description": [
             "Pressing block while aiming will zoom in your view."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Power Shot",
+          "description": [
+            "Arrows stagger all but the largest opponents 50% of the time."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Quick Shot",
+          "description": [
+            "Can draw a bow 30% faster."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Steady Hand",
+          "description": [
+            "Zooming in with a bow slows time by 25%.",
+            "Next Rank: Zooming in with a bow slows time by 50%.",
+            "Zooming in with a bow slows time by 50%."
+          ],
+          "steps": 2,
+          "chosen": 0
+        },
+        {
+          "name": "Bullseye",
+          "description": [
+            "15% chance of paralyzing the target for a few seconds."
+          ],
+          "steps": 1,
+          "chosen": 0
+        }
+      ]
+    },
+    {
+      "name": "One-Handed",
+      "perksTaken": 0,
+      "perks": [
+        {
+          "name": "Armsman",
+          "description": [
+            "One-handed weapons do 20% more damage.",
+            "Next Rank: One-handed weapons do 40% more damage.",
+            "Next Rank: One-handed weapons do 60% more damage.",
+            "Next Rank: One-handed weapons do 80% more damage.",
+            "Next Rank: One-handed weapons do 100% more damage.",
+            "One-handed weapons do 100% more damage."
+          ],
+          "steps": 5,
+          "chosen": 0
+        },
+        {
+          "name": "Fighting Stance",
+          "description": [
+            "Power attacks with one-handed weapons cost 25% less stamina."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Dual Savagery",
+          "description": [
+            "Dual wielding power attacks do 50% bonus damage."
           ],
           "steps": 1,
           "chosen": 0
