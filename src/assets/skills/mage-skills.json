@@ -40,17 +40,6 @@
           "chosen": 0
         },
         {
-          "name": "Mage Armor",
-          "description": [
-            "Protection spells like Stoneflesh are twice as strong if not wearing armor",
-            "Next Rank: Protection spells like Stoneflesh are 2.5 times as strong if not wearing armor",
-            "Next Rank: Protection spells like Stoneflesh are three times as strong if not wearing armor",
-            "Protection spells like Stoneflesh are three times as strong if not wearing armor"
-          ],
-          "steps": 3,
-          "chosen": 0
-        },
-        {
           "name": "Adept Alteration",
           "description": [
             "Cast adept level Alteration spells for half magicka"
@@ -67,9 +56,9 @@
           "chosen": 0
         },
         {
-          "name": "Stability",
+          "name": "Atronach",
           "description": [
-            "Alteration spells have 50% greater duration"
+            "Absorb 30% of the magicka of any spells that hit you"
           ],
           "steps": 1,
           "chosen": 0
@@ -83,11 +72,22 @@
           "chosen": 0
         },
         {
-          "name": "Atronach",
+          "name": "Stability",
           "description": [
-            "Absorb 30% of the magicka of any spells that hit you"
+            "Alteration spells have 50% greater duration"
           ],
           "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Mage Armor",
+          "description": [
+            "Protection spells like Stoneflesh are twice as strong if not wearing armor",
+            "Next Rank: Protection spells like Stoneflesh are 2.5 times as strong if not wearing armor",
+            "Next Rank: Protection spells like Stoneflesh are three times as strong if not wearing armor",
+            "Protection spells like Stoneflesh are three times as strong if not wearing armor"
+          ],
+          "steps": 3,
           "chosen": 0
         }
       ]
@@ -113,9 +113,25 @@
           "chosen": 0
         },
         {
-          "name": "Mystic Binding",
+          "name": "Adept Conjuration",
           "description": [
-            "Bound weapons do more damage"
+            "Cast Adept level Conjuration spells for half magicka"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Expert Conjuration",
+          "description": [
+            "Cast expert level Conjuration spells for half magicka"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Master Conjuration",
+          "description": [
+            "Cast master level Conjuration spells for half magicka"
           ],
           "steps": 1,
           "chosen": 0
@@ -124,6 +140,46 @@
           "name": "Conjuration Dual Casting",
           "description": [
             "Dual casting a Conjuration spell overcharges the spell, allowing it to last longer"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Mystic Binding",
+          "description": [
+            "Bound weapons do more damage"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Soul Stealer",
+          "description": [
+            "Bound weapons cast Soul Trap on targets"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Oblivion Binding",
+          "description": [
+            "Bound weapons will banish summoned creatures and turn raised ones"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Necromancy",
+          "description": [
+            "Greater duration for reanimated undead"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Dark Souls",
+          "description": [
+            "Reanimated undead have 100 points more health"
           ],
           "steps": 1,
           "chosen": 0
@@ -139,30 +195,6 @@
           "chosen": 0
         },
         {
-          "name": "Adept Conjuration",
-          "description": [
-            "Cast Adept level Conjuration spells for half magicka"
-          ],
-          "steps": 1,
-          "chosen": 0
-        },
-        {
-          "name": "Soul Stealer",
-          "description": [
-            "Bound weapons cast Soul Trap on targets"
-          ],
-          "steps": 1,
-          "chosen": 0
-        },
-        {
-          "name": "Necromancy",
-          "description": [
-            "Greater duration for reanimated undead"
-          ],
-          "steps": 1,
-          "chosen": 0
-        },
-        {
           "name": "Atromancy",
           "description": [
             "Double duration for conjured Atronachs"
@@ -171,41 +203,9 @@
           "chosen": 0
         },
         {
-          "name": "Expert Conjuration",
-          "description": [
-            "Cast expert level Conjuration spells for half magicka"
-          ],
-          "steps": 1,
-          "chosen": 0
-        },
-        {
-          "name": "Oblivion Binding",
-          "description": [
-            "Bound weapons will banish summoned creatures and turn raised ones"
-          ],
-          "steps": 1,
-          "chosen": 0
-        },
-        {
-          "name": "Dark Souls",
-          "description": [
-            "Reanimated undead have 100 points more health"
-          ],
-          "steps": 1,
-          "chosen": 0
-        },
-        {
           "name": "Elemental Potencey",
           "description": [
             "Conjured Atronachs are 50% more powerful"
-          ],
-          "steps": 1,
-          "chosen": 0
-        },
-        {
-          "name": "Master Conjuration",
-          "description": [
-            "Cast master level Conjuration spells for half magicka"
           ],
           "steps": 1,
           "chosen": 0
@@ -233,65 +233,11 @@
           "chosen": 0
         },
         {
-          "name": "Destruction Dual Casting",
-          "description": [
-            "Dual casting a Destruction spell overcharges the effects into an even more powerful version"
-          ],
-          "steps": 1,
-          "chosen": 0
-        },
-        {
-          "name": "Impact",
-          "description": [
-            "Most destruction spells will stagger an opponent when dual cast"
-          ],
-          "steps": 1,
-          "chosen": 0
-        },
-        {
           "name": "Apprentice Destruction",
           "description": [
             "Cast apprentice level Destruction spells for half magicka"
           ],
           "steps": 1,
-          "chosen": 0
-        },
-        {
-          "name": "Rune Master",
-          "description": [
-            "Can place runes five times farther away"
-          ],
-          "steps": 1,
-          "chosen": 0
-        },
-        {
-          "name": "Augmented Shock",
-          "description": [
-            "Shock spells do 25% more damage",
-            "Next Rank: Shock spells do 50% more damage",
-            "Shock spells do 50% more damage"
-          ],
-          "steps": 2,
-          "chosen": 0
-        },
-        {
-          "name": "Augmented Frost",
-          "description": [
-            "Frost spells do 25% more damage",
-            "Next Rank: Frost spells do 50% more damage",
-            "Frost spells do 50% more damage"
-          ],
-          "steps": 2,
-          "chosen": 0
-        },
-        {
-          "name": "Augmented Flames",
-          "description": [
-            "Fire spells do 25% more damage",
-            "Next Rank: Fire spells do 50% more damage",
-            "Fire spells do 50% more damage"
-          ],
-          "steps": 2,
           "chosen": 0
         },
         {
@@ -311,19 +257,29 @@
           "chosen": 0
         },
         {
-          "name": "Disintegrate",
+          "name": "Master Destruction",
           "description": [
-            "Shock spells disintegrate targets if their health is low (under 15%)"
+            "Cast master level Destruction spells for half magicka"
           ],
           "steps": 1,
           "chosen": 0
         },
         {
-          "name": "Deep Freeze",
+          "name": "Rune Master",
           "description": [
-            "Frost damage paralyzes targets if their health is low (under 20%)"
+            "Can place runes five times farther away"
           ],
           "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Augmented Flames",
+          "description": [
+            "Fire spells do 25% more damage",
+            "Next Rank: Fire spells do 50% more damage",
+            "Fire spells do 50% more damage"
+          ],
+          "steps": 2,
           "chosen": 0
         },
         {
@@ -335,9 +291,53 @@
           "chosen": 0
         },
         {
-          "name": "Master Destruction",
+          "name": "Augmented Frost",
           "description": [
-            "Cast master level Destruction spells for half magicka"
+            "Frost spells do 25% more damage",
+            "Next Rank: Frost spells do 50% more damage",
+            "Frost spells do 50% more damage"
+          ],
+          "steps": 2,
+          "chosen": 0
+        },
+        {
+          "name": "Deep Freeze",
+          "description": [
+            "Frost damage paralyzes targets if their health is low (under 20%)"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Augmented Shock",
+          "description": [
+            "Shock spells do 25% more damage",
+            "Next Rank: Shock spells do 50% more damage",
+            "Shock spells do 50% more damage"
+          ],
+          "steps": 2,
+          "chosen": 0
+        },
+        {
+          "name": "Disintegrate",
+          "description": [
+            "Shock spells disintegrate targets if their health is low (under 15%)"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Destruction Dual Casting",
+          "description": [
+            "Dual casting a Destruction spell overcharges the effects into an even more powerful version"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Impact",
+          "description": [
+            "Most destruction spells will stagger an opponent when dual cast"
           ],
           "steps": 1,
           "chosen": 0
