@@ -1,6 +1,92 @@
 {
   "skills": [
     {
+      "name": "Alchemy",
+      "perksTaken": 0,
+      "perks": [
+        {
+          "name": "Alchemist",
+          "description": [
+            "Potions and poisons you make are 20% stronger.",
+            "Next Rank: Potions and poisons you make are 40% stronger.",
+            "Next Rank: Potions and poisons you make are 60% stronger.",
+            "Next Rank: Potions and poisons you make are 80% stronger.",
+            "Next Rank: Potions and poisons you make are twice as strong.",
+            "Potions and poisons you make are twice as strong."
+          ],
+          "steps": 5,
+          "chosen": 0
+        },
+        {
+          "name": "Physician",
+          "description": [
+            "Potions you mix that restore Health, Magicka or Stamina are 25% more powerful."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Benefactor",
+          "description": [
+            "Potions you mix with beneficial effects have an additional 25% greater magnitude."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Experimenter",
+          "description": [
+            "Eating an ingredient reveals first two effects.",
+            "Next Rank: Eating an ingredient reveals first three effects.",
+            "Next Rank: Eating an ingredient reveals all its effects.",
+            "Eating an ingredient reveals all its effects."
+          ],
+          "steps": 3,
+          "chosen": 0
+        },
+        {
+          "name": "Poisoner",
+          "description": [
+            "Poisons you mix are 25% more effective."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Concentrated Poison",
+          "description": [
+            "Poisons applied to weapons last for twice as many hits."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Green Thumb",
+          "description": [
+            "Two ingredients are gathered from plants."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Snakeblood",
+          "description": [
+            "50% resistance to all poisons."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Purity",
+          "description": [
+            "All negative effects are removed from created potions, and all positive effects are removed from created poisons."
+          ],
+          "steps": 1,
+          "chosen": 0
+        }
+      ]
+    },
+    {
       "name": "Light Armor",
       "perksTaken": 0,
       "perks": [
@@ -26,44 +112,33 @@
           "chosen": 0
         },
         {
+          "name": "Matching Set",
+          "description": [
+            "Additional 25% Armor bonus if wearing a matched set of Light Armor."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
           "name": "Unhindered",
           "description": [
             "Light Armor weights nothing and doesn't slow you down when worn."
           ],
           "steps": 1,
           "chosen": 0
-        }
-      ]
-    },
-    {
-      "name": "Sneak",
-      "perksTaken": 0,
-      "perks": [
-        {
-          "name": "Stealth",
-          "description": [
-            "You are 20% harder to detect when sneaking.",
-            "Next Rank: You are 25% harder to detect when sneaking.",
-            "Next Rank: You are 30% harder to detect when sneaking.",
-            "Next Rank: You are 35% harder to detect when sneaking.",
-            "Next Rank: You are 40% harder to detect when sneaking.",
-            "You are 40% harder to detect when sneaking."
-          ],
-          "steps": 5,
-          "chosen": 0
         },
         {
-          "name": "Backstab",
+          "name": "Wind Walker",
           "description": [
-            "Sneak attacks with one=handed weapons now do six times damage."
+            "Stamina regenerates 50% faster in all Light Armor: head, chest, hands, feet."
           ],
           "steps": 1,
           "chosen": 0
         },
         {
-          "name": "Deadly Aim",
+          "name": "Deft Movement",
           "description": [
-            "Sneak attacks with bows now do three times damage."
+            "10% chance of avoiding all damage from a melee attack while wearing all Light Armor: head, chest, hands, feet."
           ],
           "steps": 1,
           "chosen": 0
@@ -94,6 +169,311 @@
           "name": "Quick Hands",
           "description": [
             "Able to pick locks without being noticed."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Wax Key",
+          "description": [
+            "Automatically gives you a copy of a picked lock's key if it has one."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Adept Locks",
+          "description": [
+            "Adept locks are much easier to pick."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Expert Locks",
+          "description": [
+            "Expert locks are much easier to pick."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Golden Touch",
+          "description": [
+            "Find more gold in chests."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Treasure Hunter",
+          "description": [
+            "50% greater chance of finding special treasure."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Locksmith",
+          "description": [
+            "Pick starts close to the lock opening position."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Unbreakable",
+          "description": [
+            "Lockpicks never break."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Master Locks",
+          "description": [
+            "Master locks are much easier to pick."
+          ],
+          "steps": 1,
+          "chosen": 0
+        }
+      ]
+    },
+    {
+      "name": "Pickpocket",
+      "perksTaken": 0,
+      "perks": [
+        {
+          "name": "Light Fingers",
+          "description": [
+            "Pickpocketing bonus of 20%. Item weight and value reduce pickpocketing odds.",
+            "Next Rank: Pickpocketing bonus of 40%. Item weight and value reduce pickpocketing odds.",
+            "Next Rank: Pickpocketing bonus of 60%. Item weight and value reduce pickpocketing odds.",
+            "Next Rank: Pickpocketing bonus of 80%. Item weight and value reduce pickpocketing odds.",
+            "Next Rank: Pickpocketing bonus of 100%. Item weight and value reduce pickpocketing odds.",
+            "Pickpocketing bonus of 100%. Item weight and value reduce pickpocketing odds."
+          ],
+          "steps": 5,
+          "chosen": 0
+        },
+        {
+          "name": "Night Thief",
+          "description": [
+            "+25% chance to pickpocket if the target is asleep."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Cutpurse",
+          "description": [
+            "Pickpocketing gold is 50% easier."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Keymaster",
+          "description": [
+            "Pickpocketing keys almost always works."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Misdirection",
+          "description": [
+            "Can pickpocket equipped weapons."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Perfect Touch",
+          "description": [
+            "Can pickpocket equipped items."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Extra Pockets",
+          "description": [
+            "Carrying capacity is increased by 100."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Poisoned",
+          "description": [
+            "Silently harm enemies by placing poisons in their pockets."
+          ],
+          "steps": 1,
+          "chosen": 0
+        }
+      ]
+    },
+    {
+      "name": "Sneak",
+      "perksTaken": 0,
+      "perks": [
+        {
+          "name": "Stealth",
+          "description": [
+            "You are 20% harder to detect when sneaking.",
+            "Next Rank: You are 25% harder to detect when sneaking.",
+            "Next Rank: You are 30% harder to detect when sneaking.",
+            "Next Rank: You are 35% harder to detect when sneaking.",
+            "Next Rank: You are 40% harder to detect when sneaking.",
+            "You are 40% harder to detect when sneaking."
+          ],
+          "steps": 5,
+          "chosen": 0
+        },
+        {
+          "name": "Backstab",
+          "description": [
+            "Sneak attacks with one-handed weapons now do six times damage."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Deadly Aim",
+          "description": [
+            "Sneak attacks with bows now do three times damage."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Assassin's Blade",
+          "description": [
+            "Sneak attacks with daggers now do a total of fifteen times normal damage."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Muffled Movement",
+          "description": [
+            "Wearing armor makes half as much noise when you move."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Light Foot",
+          "description": [
+            "You won't trigger pressure plates."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Silent Roll",
+          "description": [
+            "Sprinting while sneaking executes a silent forward roll."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Silence",
+          "description": [
+            "Walking and running does not affect detection."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Shadow Warrior",
+          "description": [
+            "Crouching stops combat for a moment and forces distant opponents to search for a target."
+          ],
+          "steps": 1,
+          "chosen": 0
+        }
+      ]
+    },
+    {
+      "name": "Speech",
+      "perksTaken": 0,
+      "perks": [
+        {
+          "name": "Haggling",
+          "description": [
+            "Buying and selling prices are 10% better.",
+            "Next Rank: Buying and selling prices are 15% better.",
+            "Next Rank: Buying and selling prices are 20% better.",
+            "Next Rank: Buying and selling prices are 25% better.",
+            "Next Rank: Buying and selling prices are 30% better.",
+            "Buying and selling prices are 30% better."
+          ],
+          "steps": 5,
+          "chosen": 0
+        },
+        {
+          "name": "Allure",
+          "description": [
+            "10% better prices with the opposite sex."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Merchant",
+          "description": [
+            "Can sell any type of item to any kind of merchant."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Investor",
+          "description": [
+            "Can invest 500 gold with a shopkeeper to increase his available gold permanently."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Fence",
+          "description": [
+            "Can barter stolen goods with any merchant you have invested in."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Master Trader",
+          "description": [
+            "Every merchant in the world gains 1000 gold for bartering."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Bribery",
+          "description": [
+            "Can bribe guards to ignore crimes."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Persuasion",
+          "description": [
+            "Persuasion attempts are 30% easier."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Intimidation",
+          "description": [
+            "Intimidation is twice as likely to be successful."
           ],
           "steps": 1,
           "chosen": 0
