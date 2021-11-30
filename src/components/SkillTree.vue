@@ -38,7 +38,7 @@
             :class="perk.chosen > 0 ? 'bg-opacity-100' : 'bg-opacity-60'">
               <div
                 @click="chooseSkill(perk)"
-                class="flex flex-col h-full px-6 pt-10 pb-6 lg:p-4">
+                class="flex flex-col h-full px-6 pb-6 pt-9 lg:p-4">
                   <div
                     class="flex items-center pb-2 border-b border-white">
                     <span class="mt-1 font-bold leading-tight tracking-wider lg:mt-0">{{perk.name}}</span>

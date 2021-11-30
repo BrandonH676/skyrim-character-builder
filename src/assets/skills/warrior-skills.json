@@ -18,6 +18,24 @@
           "chosen": 0
         },
         {
+          "name": "Eagle Eye",
+          "description": [
+            "Pressing block while aiming will zoom in your view."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Steady Hand",
+          "description": [
+            "Zooming in with a bow slows time by 25%.",
+            "Next Rank: Zooming in with a bow slows time by 50%.",
+            "Zooming in with a bow slows time by 50%."
+          ],
+          "steps": 2,
+          "chosen": 0
+        },
+        {
           "name": "Critical Shot",
           "description": [
             "10% chance of a critical hit that does extra damage.",
@@ -37,25 +55,17 @@
           "chosen": 0
         },
         {
-          "name": "Ranger",
-          "description": [
-            "Able to move faster with a drawn bow."
-          ],
-          "steps": 1,
-          "chosen": 0
-        },
-        {
-          "name": "Eagle Eye",
-          "description": [
-            "Pressing block while aiming will zoom in your view."
-          ],
-          "steps": 1,
-          "chosen": 0
-        },
-        {
           "name": "Power Shot",
           "description": [
             "Arrows stagger all but the largest opponents 50% of the time."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Ranger",
+          "description": [
+            "Able to move faster with a drawn bow."
           ],
           "steps": 1,
           "chosen": 0
@@ -66,16 +76,6 @@
             "Can draw a bow 30% faster."
           ],
           "steps": 1,
-          "chosen": 0
-        },
-        {
-          "name": "Steady Hand",
-          "description": [
-            "Zooming in with a bow slows time by 25%.",
-            "Next Rank: Zooming in with a bow slows time by 50%.",
-            "Zooming in with a bow slows time by 50%."
-          ],
-          "steps": 2,
           "chosen": 0
         },
         {
@@ -106,25 +106,17 @@
           "chosen": 0
         },
         {
+          "name": "Quick Reflexes",
+          "description": [
+            "Time slows down if you are blocking during an enemy's power attack."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
           "name": "Deflect Arrows",
           "description": [
             "Arrows that hit the shield do no damage."
-          ],
-          "steps": 1,
-          "chosen": 0
-        },
-        {
-          "name": "Elemental Protection",
-          "description": [
-            "Blocking with a shield reduces incoming fire, frost, and shock damage by 50%."
-          ],
-          "steps": 1,
-          "chosen": 0
-        },
-        {
-          "name": "Block Runner",
-          "description": [
-            "Able to move faster with a shield or weapon raised."
           ],
           "steps": 1,
           "chosen": 0
@@ -146,6 +138,22 @@
           "chosen": 0
         },
         {
+          "name": "Elemental Protection",
+          "description": [
+            "Blocking with a shield reduces incoming fire, frost, and shock damage by 50%."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Block Runner",
+          "description": [
+            "Able to move faster with a shield or weapon raised."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
           "name": "Disarming Bash",
           "description": [
             "Chance to disarm when power bashing."
@@ -157,14 +165,6 @@
           "name": "Shield Charge",
           "description": [
             "Sprinting with a shield raised knocks down most targets."
-          ],
-          "steps": 1,
-          "chosen": 0
-        },
-        {
-          "name": "Quick Reflexes",
-          "description": [
-            "Time slows down if you are blocking during an enemy's power attack."
           ],
           "steps": 1,
           "chosen": 0
@@ -197,25 +197,17 @@
           "chosen": 0
         },
         {
-          "name": "Cushioned",
-          "description": [
-            "Half damage from falling if wearing all Heavy Armor: head, chest, hands, feet."
-          ],
-          "steps": 1,
-          "chosen": 0
-        },
-        {
-          "name": "Conditioning",
-          "description": [
-            "Heavy Armor weighs nothing and doesn't slow you down when worn."
-          ],
-          "steps": 1,
-          "chosen": 0
-        },
-        {
           "name": "Well Fitted",
           "description": [
             "25% Armor bonus if wearing all Heavy Armor: head, chest, hands, feet."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Cushioned",
+          "description": [
+            "Half damage from falling if wearing all Heavy Armor: head, chest, hands, feet."
           ],
           "steps": 1,
           "chosen": 0
@@ -232,6 +224,14 @@
           "name": "Matching Set",
           "description": [
             "Additional 25% Armor bonus if wearing a matched set of heavy armor"
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Conditioning",
+          "description": [
+            "Heavy Armor weighs nothing and doesn't slow you down when worn."
           ],
           "steps": 1,
           "chosen": 0
@@ -264,14 +264,22 @@
           "chosen": 0
         },
         {
-          "name": "Bladesman",
+          "name": "Hack and Slash",
           "description": [
-            "Attacks with swords have a 10% chance of doing critical damage.",
-            "Next Rank: Attacks with swords have a 15% chance of doing more critical damage.",
-            "Next Rank: Attacks with swords have a 20% chance of doing even more critical damage",
-            "Attacks with swords have a 20% chance of doing even more critical damage"
+            "Attacks with war axes cause extra bleeding damage.",
+            "Next Rank: Attacks with war axes cause more bleeding damage.",
+            "Next Rank: Attacks with war axes cause even more bleeding damage.",
+            "Attacks with war axes cause even more bleeding damage."
           ],
           "steps": 3,
+          "chosen": 0
+        },
+        {
+          "name": "Fighting Stance",
+          "description": [
+            "Power attacks with one-handed weapons cost 25% less stamina."
+          ],
+          "steps": 1,
           "chosen": 0
         },
         {
@@ -281,6 +289,17 @@
             "Next Rank: Attacks with maces ignore 50% of armor.",
             "Next Rank: Attacks with maces ignore 75% of armor.",
             "Attacks with maces ignore 75% of armor."
+          ],
+          "steps": 3,
+          "chosen": 0
+        },
+        {
+          "name": "Bladesman",
+          "description": [
+            "Attacks with swords have a 10% chance of doing critical damage.",
+            "Next Rank: Attacks with swords have a 15% chance of doing more critical damage.",
+            "Next Rank: Attacks with swords have a 20% chance of doing even more critical damage",
+            "Attacks with swords have a 20% chance of doing even more critical damage"
           ],
           "steps": 3,
           "chosen": 0
@@ -299,14 +318,6 @@
           "name": "Dual Savagery",
           "description": [
             "Dual wielding power attacks do 50% bonus damage."
-          ],
-          "steps": 1,
-          "chosen": 0
-        },
-        {
-          "name": "Fighting Stance",
-          "description": [
-            "Power attacks with one-handed weapons cost 25% less stamina."
           ],
           "steps": 1,
           "chosen": 0
@@ -334,17 +345,6 @@
           ],
           "steps": 1,
           "chosen": 0
-        },
-        {
-          "name": "Hack and Slash",
-          "description": [
-            "Attacks with war axes cause extra bleeding damage.",
-            "Next Rank: Attacks with war axes cause more bleeding damage.",
-            "Next Rank: Attacks with war axes cause even more bleeding damage.",
-            "Attacks with war axes cause even more bleeding damage."
-          ],
-          "steps": 3,
-          "chosen": 0
         }
       ]
     },
@@ -369,6 +369,14 @@
           "chosen": 0
         },
         {
+          "name": "Elven Smithing",
+          "description": [
+            "Can create Elven armor and weapons at forges, and improve them twice as much."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
           "name": "Dwarven Smithing",
           "description": [
             "Can create Dwarven armor and weapons at forges, and improve them twice as much."
@@ -385,30 +393,6 @@
           "chosen": 0
         },
         {
-          "name": "Ebony Smithing",
-          "description": [
-            "Can create Ebony armor and weapons at forges, and improve them twice as much."
-          ],
-          "steps": 1,
-          "chosen": 0
-        },
-        {
-          "name": "Daedric Smithing",
-          "description": [
-            "Can create Daedric armor and weapons at forges, and improve them twice as much."
-          ],
-          "steps": 1,
-          "chosen": 0
-        },
-        {
-          "name": "Elven Smithing",
-          "description": [
-            "Can create Elven armor and weapons at forges, and improve them twice as much."
-          ],
-          "steps": 1,
-          "chosen": 0
-        },
-        {
           "name": "Advanced Armors",
           "description": [
             "Can create Scaled and Plate armor at forges, and improve them twice as much."
@@ -417,9 +401,25 @@
           "chosen": 0
         },
         {
+          "name": "Ebony Smithing",
+          "description": [
+            "Can create Ebony armor and weapons at forges, and improve them twice as much."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
           "name": "Glass Smithing",
           "description": [
             "Can create Glass armor and weapons at forges, and improve them twice as much."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Daedric Smithing",
+          "description": [
+            "Can create Daedric armor and weapons at forges, and improve them twice as much."
           ],
           "steps": 1,
           "chosen": 0
@@ -452,11 +452,44 @@
           "chosen": 0
         },
         {
+          "name": "Limbsplitter",
+          "description": [
+            "Attacks with battle axes cause extra bleeding damage.",
+            "Next Rank: Attacks with battle axes cause more bleeding damage.",
+            "Next Rank: Attacks with battle axes cause even more bleeding damage.",
+            "Attacks with battle axes cause even more bleeding damage."
+          ],
+          "steps": 3,
+          "chosen": 0
+        },
+        {
           "name": "Champion's Stance",
           "description": [
             "Power attacks with two-handed weapons cost 25% less stamina."
           ],
           "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Deep Wounds",
+          "description": [
+            "Attacks with greatswords have a 10% chance of doing critical damage.",
+            "Next Rank: Attacks with greatswords have a 15% chance of doing more critical damage.",
+            "Next Rank: Attacks with greatswords have a 20% chance of doing even more critical damage.",
+            "Attacks with greatswords have a 20% chance of doing even more critical damage."
+          ],
+          "steps": 3,
+          "chosen": 0
+        },
+        {
+          "name": "Skullcrusher",
+          "description": [
+            "Attacks with warhammers ignore 25% of armor.",
+            "Next Rank: Attacks with warhammers ignore 50% of armor.",
+            "Next Rank: Attacks with warhammers ignore 75% of armor.",
+            "Attacks with warhammers ignore 75% of armor."
+          ],
+          "steps": 3,
           "chosen": 0
         },
         {
@@ -489,39 +522,6 @@
             "Backwards power attack has a 25% chance to paralyze the target."
           ],
           "steps": 1,
-          "chosen": 0
-        },
-        {
-          "name": "Deep Wounds",
-          "description": [
-            "Attacks with greatswords have a 10% chance of doing critical damage.",
-            "Next Rank: Attacks with greatswords have a 15% chance of doing more critical damage.",
-            "Next Rank: Attacks with greatswords have a 20% chance of doing even more critical damage.",
-            "Attacks with greatswords have a 20% chance of doing even more critical damage."
-          ],
-          "steps": 3,
-          "chosen": 0
-        },
-        {
-          "name": "Limbsplitter",
-          "description": [
-            "Attacks with battle axes cause extra bleeding damage.",
-            "Next Rank: Attacks with battle axes cause more bleeding damage.",
-            "Next Rank: Attacks with battle axes cause even more bleeding damage.",
-            "Attacks with battle axes cause even more bleeding damage."
-          ],
-          "steps": 3,
-          "chosen": 0
-        },
-        {
-          "name": "Skullcrusher",
-          "description": [
-            "Attacks with warhammers ignore 25% of armor.",
-            "Next Rank: Attacks with warhammers ignore 50% of armor.",
-            "Next Rank: Attacks with warhammers ignore 75% of armor.",
-            "Attacks with warhammers ignore 75% of armor."
-          ],
-          "steps": 3,
           "chosen": 0
         }
       ]

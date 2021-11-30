@@ -26,6 +26,14 @@
           "chosen": 0
         },
         {
+          "name": "Poisoner",
+          "description": [
+            "Poisons you mix are 25% more effective."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
           "name": "Benefactor",
           "description": [
             "Potions you mix with beneficial effects have an additional 25% greater magnitude."
@@ -42,14 +50,6 @@
             "Eating an ingredient reveals all its effects."
           ],
           "steps": 3,
-          "chosen": 0
-        },
-        {
-          "name": "Poisoner",
-          "description": [
-            "Poisons you mix are 25% more effective."
-          ],
-          "steps": 1,
           "chosen": 0
         },
         {
@@ -112,14 +112,6 @@
           "chosen": 0
         },
         {
-          "name": "Matching Set",
-          "description": [
-            "Additional 25% Armor bonus if wearing a matched set of Light Armor."
-          ],
-          "steps": 1,
-          "chosen": 0
-        },
-        {
           "name": "Unhindered",
           "description": [
             "Light Armor weights nothing and doesn't slow you down when worn."
@@ -131,6 +123,14 @@
           "name": "Wind Walker",
           "description": [
             "Stamina regenerates 50% faster in all Light Armor: head, chest, hands, feet."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Matching Set",
+          "description": [
+            "Additional 25% Armor bonus if wearing a matched set of Light Armor."
           ],
           "steps": 1,
           "chosen": 0
@@ -190,14 +190,6 @@
           "chosen": 0
         },
         {
-          "name": "Expert Locks",
-          "description": [
-            "Expert locks are much easier to pick."
-          ],
-          "steps": 1,
-          "chosen": 0
-        },
-        {
           "name": "Golden Touch",
           "description": [
             "Find more gold in chests."
@@ -209,6 +201,14 @@
           "name": "Treasure Hunter",
           "description": [
             "50% greater chance of finding special treasure."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Expert Locks",
+          "description": [
+            "Expert locks are much easier to pick."
           ],
           "steps": 1,
           "chosen": 0
@@ -265,9 +265,25 @@
           "chosen": 0
         },
         {
+          "name": "Poisoned",
+          "description": [
+            "Silently harm enemies by placing poisons in their pockets."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
           "name": "Cutpurse",
           "description": [
             "Pickpocketing gold is 50% easier."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Extra Pockets",
+          "description": [
+            "Carrying capacity is increased by 100."
           ],
           "steps": 1,
           "chosen": 0
@@ -295,22 +311,6 @@
           ],
           "steps": 1,
           "chosen": 0
-        },
-        {
-          "name": "Extra Pockets",
-          "description": [
-            "Carrying capacity is increased by 100."
-          ],
-          "steps": 1,
-          "chosen": 0
-        },
-        {
-          "name": "Poisoned",
-          "description": [
-            "Silently harm enemies by placing poisons in their pockets."
-          ],
-          "steps": 1,
-          "chosen": 0
         }
       ]
     },
@@ -329,6 +329,14 @@
             "You are 40% harder to detect when sneaking."
           ],
           "steps": 5,
+          "chosen": 0
+        },
+        {
+          "name": "Muffled Movement",
+          "description": [
+            "Wearing armor makes half as much noise when you move."
+          ],
+          "steps": 1,
           "chosen": 0
         },
         {
@@ -351,14 +359,6 @@
           "name": "Assassin's Blade",
           "description": [
             "Sneak attacks with daggers now do a total of fifteen times normal damage."
-          ],
-          "steps": 1,
-          "chosen": 0
-        },
-        {
-          "name": "Muffled Movement",
-          "description": [
-            "Wearing armor makes half as much noise when you move."
           ],
           "steps": 1,
           "chosen": 0
@@ -423,9 +423,33 @@
           "chosen": 0
         },
         {
+          "name": "Bribery",
+          "description": [
+            "Can bribe guards to ignore crimes."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
           "name": "Merchant",
           "description": [
             "Can sell any type of item to any kind of merchant."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Persuasion",
+          "description": [
+            "Persuasion attempts are 30% easier."
+          ],
+          "steps": 1,
+          "chosen": 0
+        },
+        {
+          "name": "Intimidation",
+          "description": [
+            "Intimidation is twice as likely to be successful."
           ],
           "steps": 1,
           "chosen": 0
@@ -450,30 +474,6 @@
           "name": "Master Trader",
           "description": [
             "Every merchant in the world gains 1000 gold for bartering."
-          ],
-          "steps": 1,
-          "chosen": 0
-        },
-        {
-          "name": "Bribery",
-          "description": [
-            "Can bribe guards to ignore crimes."
-          ],
-          "steps": 1,
-          "chosen": 0
-        },
-        {
-          "name": "Persuasion",
-          "description": [
-            "Persuasion attempts are 30% easier."
-          ],
-          "steps": 1,
-          "chosen": 0
-        },
-        {
-          "name": "Intimidation",
-          "description": [
-            "Intimidation is twice as likely to be successful."
           ],
           "steps": 1,
           "chosen": 0
