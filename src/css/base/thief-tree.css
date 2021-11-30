@@ -1,0 +1,9 @@
+.thief-tree {
+  .skill-card {
+    @apply bg-green-500 bg-opacity-50 hover:bg-opacity-90;
+  }
+
+  .active-skill-card {
+    @apply bg-opacity-90;
+  }
+}

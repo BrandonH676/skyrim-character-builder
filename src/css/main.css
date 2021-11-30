@@ -4,4 +4,8 @@
 @import '/base/nav';
 @import '/base/structure';
 
+@import '/base/mage-tree';
+@import '/base/thief-tree';
+@import '/base/warrior-tree';
+
 @import 'tailwindcss/utilities';
