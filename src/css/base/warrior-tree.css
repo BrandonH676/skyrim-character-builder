@@ -6,4 +6,285 @@
   .active-skill-card {
     @apply bg-opacity-90;
   }
+
+  /* Archery Positioning */
+  li[data-name="Overdraw"] {
+    grid-row-start: 5;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Eagle Eye"] {
+    grid-row-start: 4;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Critical Shot"] {
+    grid-row-start: 4;
+    grid-column-start: 9;
+  }
+
+  li[data-name="Steady Hand"] {
+    grid-row-start: 4;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Power Shot"] {
+    grid-row-start: 3;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Hunter's Discipline"] {
+    grid-row-start: 3;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Quick Shot"] {
+    grid-row-start: 2;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Ranger"] {
+    grid-row-start: 2;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Bullseye"] {
+    grid-row-start: 1;
+    grid-column-start: 5;
+  }
+
+  /* Block Positioning */
+  li[data-name="Shield Wall"] {
+    grid-row-start: 5;
+    grid-column-start: 5; 
+  }
+
+  li[data-name="Deflect Arrows"] {
+    grid-row-start: 4;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Power Bash"] {
+    grid-row-start: 4;
+    grid-column-start: 9;
+  }
+
+  li[data-name="Quick Reflexes"] {
+    grid-row-start: 4;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Elemental Protection"] {
+    grid-row-start: 3;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Deadly Bash"] {
+    grid-row-start: 3;
+    grid-column-start: 9;
+  }
+
+  li[data-name="Block Runner"] {
+    grid-row-start: 2;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Disarming Bash"] {
+    grid-row-start: 2;
+    grid-column-start: 9;
+  }
+
+  li[data-name="Shield Charge"] {
+    grid-row-start: 1;
+    grid-column-start: 5;
+  }
+
+  /* Heavy Armor Positioning */
+  li[data-name="Juggernaut"] {
+    grid-row-start: 5;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Fists of Steel"] {
+    grid-row-start: 4;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Well Fitted"] {
+    grid-row-start: 4;
+    grid-column-start: 9;
+  }
+
+  li[data-name="Cushioned"] {
+    grid-row-start: 3;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Tower of Strength"] {
+    grid-row-start: 3;
+    grid-column-start: 9;
+  }
+
+  li[data-name="Conditioning"] {
+    grid-row-start: 2;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Matching Set"] {
+    grid-row-start: 2;
+    grid-column-start: 9;
+  }
+
+  li[data-name="Reflect Blows"] {
+    grid-row-start: 1;
+    grid-column-start: 5;
+  }
+
+  /* One Handed Positioning */
+  li[data-name="Armsman"] {
+    grid-row-start: 5;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Dual Flurry"] {
+    grid-row-start: 5;
+    grid-column-start: 9;
+  }
+
+  li[data-name="Fighting Stance"] {
+    grid-row-start: 4;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Hack and Slash"] {
+    grid-row-start: 3;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Bone Breaker"] {
+    grid-row-start: 3;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Bladesman"] {
+    grid-row-start: 3;
+    grid-column-start: 9;
+  }
+
+  li[data-name="Savage Strike"] {
+    grid-row-start: 2;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Critical Charge"] {
+    grid-row-start: 2;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Dual Savagery"] {
+    grid-row-start: 2;
+    grid-column-start: 9;
+  }
+
+  li[data-name="Paralyzing Strike"] {
+    grid-row-start: 1;
+    grid-column-start: 5;
+  }
+
+  /* Smithing Positioning */
+  li[data-name="Steel Smithing"] {
+    grid-row-start: 5;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Elven Smithing"] {
+    grid-row-start: 4;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Arcane Blacksmith"] {
+    grid-row-start: 4;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Dwarven Smithing"] {
+    grid-row-start: 4;
+    grid-column-start: 9;
+  }
+
+  li[data-name="Advanced Armors"] {
+    grid-row-start: 3;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Orcish Smithing"] {
+    grid-row-start: 3;
+    grid-column-start: 9;
+  }
+
+  li[data-name="Ebony Smithing"] {
+    grid-row-start: 2;
+    grid-column-start: 9;
+  }
+
+  li[data-name="Glass Smithing"] {
+    grid-row-start: 2;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Daedric Smithing"] {
+    grid-row-start: 2;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Dragon Armor"] {
+    grid-row-start: 1;
+    grid-column-start: 5;
+  }
+
+  /* Two Handed Positioning */
+  li[data-name="Warmaster"] {
+    grid-row-start: 1;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Sweep"] {
+    grid-row-start: 2;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Great Critical Charge"] {
+    grid-row-start: 3;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Devastating Blow"] {
+    grid-row-start: 3;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Skullcrusher"] {
+    grid-row-start: 3;
+    grid-column-start: 9;
+  }
+
+  li[data-name="Limbsplitter"] {
+    grid-row-start: 4;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Champion's Stance"] {
+    grid-row-start: 4;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Deep Wounds"] {
+    grid-row-start: 4;
+    grid-column-start: 9;
+  }
+
+  li[data-name="Barbarian"] {
+    grid-row-start: 5;
+    grid-column-start: 5;
+  }
 }

@@ -6,4 +6,270 @@
   .active-skill-card {
     @apply bg-opacity-90;
   }
+
+  /* Alchemy Positioning */
+  li[data-name="Alchemist"] {
+    grid-row-start: 5;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Physician"] {
+    grid-row-start: 5;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Poisoner"] {
+    grid-row-start: 4;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Benefactor"] {
+    grid-row-start: 4;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Concentrated Poison"] {
+    grid-row-start: 3;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Experimenter"] {
+    grid-row-start: 3;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Green Thumb"] {
+    grid-row-start: 2;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Snakeblood"] {
+    grid-row-start: 2;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Purity"] {
+    grid-row-start: 1;
+    grid-column-start: 5;
+  }
+
+  /* Light Armor Positioning */
+  li[data-name="Agile Defender"] {
+    grid-row-start: 4;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Custom Fit"] {
+    grid-row-start: 3;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Unhindered"] {
+    grid-row-start: 3;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Wind Walker"] {
+    grid-row-start: 2;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Matching Set"] {
+    grid-row-start: 2;
+    grid-column-start: 9;
+  }
+
+  li[data-name="Deft Movement"] {
+    grid-row-start: 1;
+    grid-column-start: 5;
+  }
+
+  /* Lockpicking Position */
+  li[data-name="Novice Locks"] {
+    grid-row-start: 5;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Wax Key"] {
+    grid-row-start: 4;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Quick Hands"] {
+    grid-row-start: 4;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Apprentice Locks"] {
+    grid-row-start: 4;
+    grid-column-start: 9;
+  }
+
+  li[data-name="Treasure Hunter"] {
+    grid-row-start: 3;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Golden Touch"] {
+    grid-row-start: 3;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Adept Locks"] {
+    grid-row-start: 3;
+    grid-column-start: 9;
+  }
+
+  li[data-name="Expert Locks"] {
+    grid-row-start: 2;
+    grid-column-start: 9;
+  }
+
+  li[data-name="Locksmith"] {
+    grid-row-start: 2;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Unbreakable"] {
+    grid-row-start: 2;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Master Locks"] {
+    grid-row-start: 1;
+    grid-column-start: 5;
+  }
+
+  /* Pickpocekt Positioning */
+  li[data-name="Light Fingers"] {
+    grid-row-start: 5;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Night Thief"] {
+    grid-row-start: 4;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Poisoned"] {
+    grid-row-start: 3;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Cutpurse"] {
+    grid-row-start: 3;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Extra Pockets"] {
+    grid-row-start: 3;
+    grid-column-start: 9;
+  }
+
+  li[data-name="Keymaster"] {
+    grid-row-start: 2;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Misdirection"] {
+    grid-row-start: 2;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Perfect Touch"] {
+    grid-row-start: 1;
+    grid-column-start: 5;
+  }
+
+  /* Sneak Positioning */
+  li[data-name="Stealth"] {
+    grid-row-start: 5;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Muffled Movement"] {
+    grid-row-start: 4;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Backstab"] {
+    grid-row-start: 4;
+    grid-column-start: 9;
+  }
+
+  li[data-name="Light Foot"] {
+    grid-row-start: 3;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Deadly Aim"] {
+    grid-row-start: 3;
+    grid-column-start: 9;
+  }
+
+  li[data-name="Silent Roll"] {
+    grid-row-start: 2;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Assassin's Blade"] {
+    grid-row-start: 2;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Silence"] {
+    grid-row-start: 1;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Shadow Warrior"] {
+    grid-row-start: 1;
+    grid-column-start: 9;
+  }
+
+  /* Speech Positioning */
+  li[data-name="Haggling"] {
+    grid-row-start: 5;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Allure"] {
+    grid-row-start: 4;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Bribery"] {
+    grid-row-start: 4;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Merchant"] {
+    grid-row-start: 3;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Persuasion"] {
+    grid-row-start: 3;
+    grid-column-start: 9;
+  }
+
+  li[data-name="Investor"] {
+    grid-row-start: 2;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Intimidation"] {
+    grid-row-start: 2;
+    grid-column-start: 9;
+  }
+
+  li[data-name="Fence"] {
+    grid-row-start: 1;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Master Trader"] {
+    grid-row-start: 1;
+    grid-column-start: 5;
+  }
 }

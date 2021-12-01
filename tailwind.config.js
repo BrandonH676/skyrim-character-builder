@@ -35,15 +35,14 @@ module.exports = {
       height: {
         'none': '0%',
       },
-      minHeight: {
-        'auto': 'auto',
-      },
       screens: {
         '2xl': '1440px',
       },
       spacing: {
         '5%': '5%',
+        '35%': '35%',
         '40%': '40%',
+        '65%': '65%',
         '80%': '80%',
       },
     },

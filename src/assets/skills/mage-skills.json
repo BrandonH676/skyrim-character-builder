@@ -195,7 +195,7 @@
           "chosen": 0
         },
         {
-          "name": "Elemental Potencey",
+          "name": "Elemental Potency",
           "description": [
             "Conjured Atronachs are 50% more powerful"
           ],
@@ -257,7 +257,7 @@
           "chosen": 0
         },
         {
-          "name": "Augmented Flames",
+          "name": "Augmented Flame",
           "description": [
             "Fire spells do 25% more damage",
             "Next Rank: Fire spells do 50% more damage",

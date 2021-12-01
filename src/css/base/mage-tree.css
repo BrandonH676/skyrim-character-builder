@@ -6,4 +6,375 @@
   .active-skill-card {
     @apply bg-opacity-90;
   }
+
+  /* Alteration Positioning */
+  li[data-name="Novice Alteration"] {
+    grid-row-start: 5;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Alteration Dual Casting"] {
+    grid-row-start: 4;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Apprentice Alteration"] {
+    grid-row-start: 4;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Adept Alteration"] {
+    grid-row-start: 3;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Mage Armor"] {
+    grid-row-start: 3;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Magic Resistance"] {
+    grid-row-start: 3;
+    grid-column-start: 9;
+  }
+
+  li[data-name="Expert Alteration"] {
+    grid-row-start: 2;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Stability"] {
+    grid-row-start: 2;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Atronach"] {
+    grid-row-start: 1;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Master Alteration"] {
+    grid-row-start: 1;
+    grid-column-start: 9;
+  }
+
+  /* Conjuration Positioning */
+  li[data-name="Novice Conjuration"] {
+    grid-row-start: 7;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Apprentice Conjuration"] {
+    grid-row-start: 6;
+    grid-column-start: 9;
+  }
+
+  li[data-name="Mystic Binding"] {
+    grid-row-start: 6;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Conjuration Dual Casting"] {
+    grid-row-start: 6;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Summoner"] {
+    grid-row-start: 5;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Soul Stealer"] {
+    grid-row-start: 5;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Adept Conjuration"] {
+    grid-row-start: 5;
+    grid-column-start: 9;
+  }
+
+  li[data-name="Necromancy"] {
+    grid-row-start: 4;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Atromancy"] {
+    grid-row-start: 4;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Expert Conjuration"] {
+    grid-row-start: 3;
+    grid-column-start: 9;
+  }
+
+  li[data-name="Oblivion Binding"] {
+    grid-row-start: 3;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Dark Souls"] {
+    grid-row-start: 2;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Elemental Potency"] {
+    grid-row-start: 2;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Twin Souls"] {
+    grid-row-start: 1;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Master Conjuration"] {
+    grid-row-start: 1;
+    grid-column-start: 9;
+  }
+
+  /* Destruction Positioning */
+  li[data-name="Novice Destruction"] {
+    grid-row-start: 7;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Destruction Dual Casting"] {
+    grid-row-start: 7;
+    grid-column-start: 9;
+  }
+
+  li[data-name="Apprentice Destruction"] {
+    grid-row-start: 6;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Impact"] {
+    grid-row-start: 6;
+    grid-column-start: 9;
+  }
+
+  li[data-name="Augmented Flame"] {
+    grid-row-start: 5;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Augmented Frost"] {
+    grid-row-start: 5;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Augmented Shock"] {
+    grid-row-start: 5;
+    grid-column-start: 9;
+  }
+
+  li[data-name="Adept Destruction"] {
+    grid-row-start: 4;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Rune Master"] {
+    grid-row-start: 4;
+    grid-column-start: 9;
+  }
+
+  li[data-name="Intense Flames"] {
+    grid-row-start: 3;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Deep Freeze"] {
+    grid-row-start: 3;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Disintegrate"] {
+    grid-row-start: 3;
+    grid-column-start: 9;
+  }
+
+  li[data-name="Expert Destruction"] {
+    grid-row-start: 2;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Master Destruction"] {
+    grid-row-start: 1;
+    grid-column-start: 5;
+  }
+
+  /* Enchanting Position */
+  li[data-name="Enchanter"] {
+    grid-row-start: 5;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Insightful Enchanter"] {
+    grid-row-start: 4;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Fire Enchanter"] {
+    grid-row-start: 4;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Soul Squeezer"] {
+    grid-row-start: 4;
+    grid-column-start: 9;
+  }
+
+  li[data-name="Frost Enchanter"] {
+    grid-row-start: 3;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Corpus Enchanter"] {
+    grid-row-start: 3;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Storm Enchanter"] {
+    grid-row-start: 2;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Soul Siphon"] {
+    grid-row-start: 2;
+    grid-column-start: 9;
+  }
+
+  li[data-name="Extra Effect"] {
+    grid-row-start: 1;
+    grid-column-start: 5;
+  }
+
+  /* Illusion Positioning */
+  li[data-name="Illusion Dual Casting"] {
+    grid-row-start: 5;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Novice Illusion"] {
+    grid-row-start: 5;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Animage"] {
+    grid-row-start: 4;
+    grid-column-start: 9;
+  }
+
+  li[data-name="Hypnotic Gaze"] {
+    grid-row-start: 4;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Apprentice Illusion"] {
+    grid-row-start: 4;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Kindred Mage"] {
+    grid-row-start: 3;
+    grid-column-start: 9;
+  }
+
+  li[data-name="Aspect of Terror"] {
+    grid-row-start: 3;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Adept Illusion"] {
+    grid-row-start: 3;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Expert Illusion"] {
+    grid-row-start: 2;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Rage"] {
+    grid-row-start: 2;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Quiet Casting"] {
+    grid-row-start: 2;
+    grid-column-start: 9;
+  }
+
+  li[data-name="Master Illusion"] {
+    grid-row-start: 1;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Master of the Mind"] {
+    grid-row-start: 1;
+    grid-column-start: 5;
+  }
+
+  /* Restoration Positioning */
+  li[data-name="Novice Restoration"] {
+    grid-row-start: 5;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Restoration Dual Casting"] {
+    grid-row-start: 5;
+    grid-column-start: 9;
+  }
+
+  li[data-name="Apprentice Restoration"] {
+    grid-row-start: 4;
+    grid-column-start: 9;
+  }
+
+  li[data-name="Regeneration"] {
+    grid-row-start: 4;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Respite"] {
+    grid-row-start: 4;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Recovery"] {
+    grid-row-start: 3;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Avoid Death"] {
+    grid-row-start: 3;
+    grid-column-start: 9;
+  }
+
+  li[data-name="Necromage"] {
+    grid-row-start: 2;
+    grid-column-start: 1;
+  }
+
+  li[data-name="Ward Absorb"] {
+    grid-row-start: 2;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Adept Restoration"] {
+    grid-row-start: 2;
+    grid-column-start: 9;
+  }
+
+  li[data-name="Expert Restoration"] {
+    grid-row-start: 1;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Master Restoration"] {
+    grid-row-start: 1;
+    grid-column-start: 1;
+  }
 }

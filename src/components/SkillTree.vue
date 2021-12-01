@@ -1,8 +1,8 @@
 <template>
-  <div class="w-11/12 pb-20 mx-auto lg:flex lg:w-full lg:px-4 xl:w-11/12 xl:px-0">
+  <div class="w-11/12 pb-20 mx-auto md:pb-28 lg:flex lg:w-full lg:px-6 xl:w-11/12 xl:px-0 2xl:w-10/12">
   
     <!-- Skill Cards Wrapper -->
-    <div class="grid w-full grid-cols-8 gap-4 mx-auto md:w-3/4 lg:w-5/12 lg:h-none lg:mx-0">
+    <div class="grid w-full grid-cols-8 gap-4 mx-auto md:w-3/4 lg:w-35% lg:h-none lg:mx-0">
       <div
         v-for="skill in skills"
         :key="skill.name"
@@ -28,19 +28,20 @@
     <!-- Active Tree Wrapper -->
     <div
       v-if="activeSkillTree"
-      class="w-full mt-12 lg:w-7/12 lg:mt-0">
-        <ul class="flex overflow-scroll text-sm break-full-width scrollbar-hide pl-5% lg:grid lg:grid-cols-12 lg:gap-3 lg:text-xs lg:mx-0 lg:pl-6 xl:text-sm xl:gap-4 xl:pl-10">
+      class="w-full mt-12 lg:w-65% lg:mt-0">
+        <ul class="flex overflow-scroll text-sm break-full-width scrollbar-hide pl-5% lg:grid lg:grid-cols-12 lg:gap-4 lg:text-xs lg:mx-0 lg:pl-6 lg:overflow-visible xl:text-sm xl:pl-10">
 
           <li
             v-for="perk in activeSkillTree.perks"
             :key="perk.name"
-            class="relative flex-shrink-0 w-64 min-h-full mr-5 bg-teal-500 cursor-pointer select-none lg:col-span-4 lg:w-full lg:min-h-auto lg:m-0"
-            :class="perk.chosen > 0 ? 'bg-opacity-100' : 'bg-opacity-60'">
+            :data-name="perk.name"
+            class="relative flex-shrink-0 w-64 min-h-full mr-5 select-none lg:col-span-4 lg:w-full lg:m-0">
               <div
                 @click="chooseSkill(perk)"
-                class="flex flex-col h-full px-6 pb-6 pt-9 lg:p-4">
+                class="flex flex-col h-full px-6 pb-6 bg-teal-500 cursor-pointer pt-9 lg:p-5"
+                :class="perk.chosen > 0 ? 'bg-opacity-100' : 'bg-opacity-60'">
                   <div
-                    class="flex items-center pb-2 border-b border-white">
+                    class="flex items-center pb-2 border-b border-white lg:items-start">
                     <span class="mt-1 font-bold leading-tight tracking-wider lg:mt-0">{{perk.name}}</span>
                     <span v-if="perk.steps > 1" class="ml-1 font-medium">({{perk.chosen}}/{{perk.steps}})</span>
                   </div>
@@ -58,7 +59,7 @@
               <button
                 v-if="perk.chosen > 0"
                 @click="removeSkill(perk)"
-                class="absolute w-5 h-5 top-3 right-4 lg:w-3 lg:h-3 lg:top-2 lg:right-2">
+                class="absolute w-5 h-5 top-3 right-4 lg:w-3 lg:h-3 lg:top-2 lg:right-2 2xl:w-4 2xl:h-4">
                   <svg xmlns="http://www.w3.org/2000/svg" class="w-full h-full fill-current" viewBox="12.1 9.11 30 28.7">
                     <path d="M30.25 23.78l11.55 11c.2.19.3.4.3.65s-.1.47-.3.66l-1.5 1.43a.99.99 0 01-1.38 0L27.29 26.46l-.14.02c-.07 0-.14-.02-.21-.04L15.29 37.52a.99.99 0 01-1.38 0l-1.5-1.43c-.2-.19-.3-.41-.3-.66s.1-.46.3-.65L24 23.73 12.56 12.27a.94.94 0 010-1.37l1.49-1.5a.94.94 0 011.37 0l11.73 11.74L38.88 9.41a.94.94 0 011.37 0l1.5 1.5c.2.2.3.42.3.68 0 .26-.1.49-.3.69l-11.5 11.5z"/>
                   </svg>
