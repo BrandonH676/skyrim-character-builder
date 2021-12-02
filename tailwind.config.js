@@ -35,6 +35,9 @@ module.exports = {
       height: {
         'none': '0%',
       },
+      letterSpacing: {
+        '0.15': '0.15em',
+      },
       screens: {
         '2xl': '1440px',
       },
@@ -49,6 +52,7 @@ module.exports = {
   },
   variants: {
     extend: {
+      brightness: ['hover'],
       margin: ['first', 'last'],
     },
   },

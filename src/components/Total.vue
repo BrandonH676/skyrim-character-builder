@@ -13,7 +13,7 @@
   <div class="mt-5">
     <button
       @click="clearPerks()"
-      class="px-6 py-3 tracking-wider transition duration-100 bg-teal-500 rounded-lg ring-0 hover:bg-teal-200">
+      class="px-6 py-3 tracking-wider transition duration-100 bg-teal-500 rounded-lg ring-0 filter hover:brightness-125">
       Clear all Perks
     </button>
   </div>

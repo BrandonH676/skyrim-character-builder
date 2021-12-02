@@ -183,7 +183,7 @@
 
   /* Sneak Positioning */
   li[data-name="Stealth"] {
-    grid-row-start: 4;
+    grid-row-start: 5;
     grid-column-start: 5;
   }
 

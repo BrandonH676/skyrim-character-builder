@@ -9,11 +9,16 @@
         @click="setActiveSkillTree(skill)"
         class="relative pb-40% col-span-4 px-4 text-center transition duration-100 cursor-pointer select-none rounded-xl lg:pb-80% lg:px-6 skill-card"
         :class="this.activeSkillTree === skill ? 'active-skill-card' : ''">
-          <div class="absolute inset-0 flex flex-col items-center justify-center w-full h-full">
-            <span class="mb-0.5 text-xs font-medium tracking-widest uppercase md:text-sm xl:text-base">
+          <div class="absolute inset-0 flex items-center justify-center opacity-20">
+             <img :src="require(`../assets/img/${skill.name}-bg.png`)"
+             alt=""
+             class="object-cover w-full h-full lg:object-contain">
+          </div>
+          <div class="absolute inset-0 z-10 flex flex-col items-center justify-center w-full h-full">
+            <span class="mb-0.5 text-xs font-medium tracking-0.15 uppercase md:text-sm xl:text-base">
               {{skill.name}}
             </span>
-            <span class="text-sm font-medium tracking-wide md:text-base xl:text-lg">
+            <span class="text-base font-medium tracking-wide md:text-lg xl:text-xl">
               {{skill.perksTaken}}
             </span>
           </div>
@@ -39,7 +44,7 @@
               <div
                 @click="chooseSkill(perk)"
                 class="flex flex-col h-full px-6 pb-6 bg-teal-500 cursor-pointer pt-9 lg:p-5"
-                :class="perk.chosen > 0 ? 'bg-opacity-100' : 'bg-opacity-60'">
+                :class="perk.chosen > 0 ? 'bg-opacity-100 lg:bg-opacity-50 lg:opacity-100 lg:bg-teal-500' : 'bg-opacity-50 lg:opacity-80 lg:bg-transparent'">
                   <div
                     class="flex items-center pb-2 border-b border-white lg:items-start">
                     <span class="mt-1 font-bold leading-tight tracking-wider lg:mt-0">{{perk.name}}</span>

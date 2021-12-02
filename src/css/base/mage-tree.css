@@ -55,7 +55,7 @@
 
   li[data-name="Master Alteration"] {
     grid-row-start: 1;
-    grid-column-start: 5;
+    grid-column-start: 9;
   }
 
   /* Conjuration Positioning */
