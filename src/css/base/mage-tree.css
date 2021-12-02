@@ -55,12 +55,12 @@
 
   li[data-name="Master Alteration"] {
     grid-row-start: 1;
-    grid-column-start: 9;
+    grid-column-start: 5;
   }
 
   /* Conjuration Positioning */
   li[data-name="Novice Conjuration"] {
-    grid-row-start: 7;
+    grid-row-start: 6;
     grid-column-start: 5;
   }
 
@@ -69,14 +69,14 @@
     grid-column-start: 9;
   }
 
-  li[data-name="Mystic Binding"] {
-    grid-row-start: 6;
-    grid-column-start: 5;
-  }
-
   li[data-name="Conjuration Dual Casting"] {
     grid-row-start: 6;
     grid-column-start: 1;
+  }
+
+  li[data-name="Mystic Binding"] {
+    grid-row-start: 5;
+    grid-column-start: 5;
   }
 
   li[data-name="Summoner"] {
@@ -84,17 +84,17 @@
     grid-column-start: 1;
   }
 
-  li[data-name="Soul Stealer"] {
-    grid-row-start: 5;
-    grid-column-start: 5;
-  }
-
   li[data-name="Adept Conjuration"] {
     grid-row-start: 5;
     grid-column-start: 9;
   }
 
-  li[data-name="Necromancy"] {
+  li[data-name="Expert Conjuration"] {
+    grid-row-start: 4;
+    grid-column-start: 9;
+  }
+
+  li[data-name="Soul Stealer"] {
     grid-row-start: 4;
     grid-column-start: 5;
   }
@@ -104,17 +104,13 @@
     grid-column-start: 1;
   }
 
-  li[data-name="Expert Conjuration"] {
-    grid-row-start: 3;
-    grid-column-start: 9;
-  }
-
   li[data-name="Oblivion Binding"] {
     grid-row-start: 3;
     grid-column-start: 5;
   }
 
-  li[data-name="Dark Souls"] {
+
+  li[data-name="Necromancy"] {
     grid-row-start: 2;
     grid-column-start: 5;
   }
@@ -124,9 +120,14 @@
     grid-column-start: 1;
   }
 
-  li[data-name="Twin Souls"] {
+  li[data-name="Dark Souls"] {
     grid-row-start: 1;
     grid-column-start: 5;
+  }
+
+  li[data-name="Twin Souls"] {
+    grid-row-start: 1;
+    grid-column-start: 1;
   }
 
   li[data-name="Master Conjuration"] {
@@ -136,73 +137,73 @@
 
   /* Destruction Positioning */
   li[data-name="Novice Destruction"] {
-    grid-row-start: 7;
+    grid-row-start: 6;
     grid-column-start: 5;
   }
 
   li[data-name="Destruction Dual Casting"] {
-    grid-row-start: 7;
+    grid-row-start: 6;
     grid-column-start: 9;
   }
 
   li[data-name="Apprentice Destruction"] {
-    grid-row-start: 6;
+    grid-row-start: 5;
     grid-column-start: 5;
   }
 
   li[data-name="Impact"] {
-    grid-row-start: 6;
+    grid-row-start: 5;
     grid-column-start: 9;
   }
 
   li[data-name="Augmented Flame"] {
-    grid-row-start: 5;
+    grid-row-start: 4;
     grid-column-start: 1;
   }
 
   li[data-name="Augmented Frost"] {
-    grid-row-start: 5;
+    grid-row-start: 4;
     grid-column-start: 5;
   }
 
   li[data-name="Augmented Shock"] {
-    grid-row-start: 5;
+    grid-row-start: 4;
     grid-column-start: 9;
   }
 
   li[data-name="Adept Destruction"] {
-    grid-row-start: 4;
+    grid-row-start: 3;
     grid-column-start: 5;
   }
 
   li[data-name="Rune Master"] {
-    grid-row-start: 4;
+    grid-row-start: 3;
     grid-column-start: 9;
   }
 
   li[data-name="Intense Flames"] {
-    grid-row-start: 3;
+    grid-row-start: 2;
     grid-column-start: 1;
   }
 
   li[data-name="Deep Freeze"] {
-    grid-row-start: 3;
+    grid-row-start: 2;
     grid-column-start: 5;
   }
 
   li[data-name="Disintegrate"] {
-    grid-row-start: 3;
+    grid-row-start: 2;
     grid-column-start: 9;
   }
 
   li[data-name="Expert Destruction"] {
-    grid-row-start: 2;
+    grid-row-start: 1;
     grid-column-start: 5;
   }
 
   li[data-name="Master Destruction"] {
     grid-row-start: 1;
-    grid-column-start: 5;
+    grid-column-start: 1;
   }
 
   /* Enchanting Position */
