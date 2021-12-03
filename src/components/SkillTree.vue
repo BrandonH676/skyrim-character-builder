@@ -11,7 +11,7 @@
         :class="this.activeSkillTree === skill ? 'active-skill-card' : ''">
           <div class="absolute inset-0 flex items-center justify-center opacity-20">
              <img :src="require(`../assets/img/${skill.name}-bg.png`)"
-             alt=""
+             :alt="'Elder Scrolls V Skyrim '+skill.name+' skill logo'"
              class="object-cover w-full h-full lg:object-contain">
           </div>
           <div class="absolute inset-0 z-10 flex flex-col items-center justify-center w-full h-full">
@@ -44,7 +44,7 @@
               <div
                 @click="chooseSkill(perk)"
                 class="flex flex-col h-full px-6 pb-6 bg-teal-500 cursor-pointer pt-9 lg:h-min-content lg:p-5"
-                :class="perk.chosen > 0 ? 'bg-opacity-100 lg:bg-opacity-50 lg:opacity-100 lg:bg-teal-500' : 'bg-opacity-50 lg:opacity-80 lg:bg-transparent'">
+                :class="perk.chosen > 0 ? 'bg-opacity-100 lg:bg-opacity-70 lg:opacity-100 lg:bg-teal-500' : 'bg-opacity-70 lg:opacity-90 lg:bg-transparent'">
                   <div
                     class="flex items-center pb-2 border-b border-white lg:items-start">
                     <span class="mt-1 font-bold leading-tight tracking-wider lg:mt-0">{{perk.name}}</span>
@@ -75,7 +75,7 @@
         <!-- Background Image -->
         <span class="absolute bottom-0 left-0 right-0 flex items-start justify-center opacity-75 -top-10 lg:top-0">
           <img :src="require(`../assets/img/skill-${activeSkillTree.name}.png`)"
-          alt=""
+          :alt="'Elder Scrolls V Skyrim '+activeSkillTree.name+' skill selection tree'"
           class="w-auto h-72 md:h-96 lg:h-112 xl:h-140">
         </span>
         <!-- Close Background Image -->

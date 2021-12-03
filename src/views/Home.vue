@@ -1,5 +1,5 @@
 <template>
-  <div class="container mt-3">
+  <div class="container mt-8 md:mt-10 lg:mt-14">
 
   <h1 class="w-11/12 mx-auto mb-4 text-2xl font-bold leading-tight md:w-10/12 md:text-3xl md:mb-6 lg:w-3/4 xl:w-2/3 xl:text-4xl 2xl:w-7/12">
     Elder Scrolls V Skyrim Character Builder
