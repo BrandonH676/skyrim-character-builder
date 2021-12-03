@@ -33,8 +33,8 @@
     <!-- Active Tree Wrapper -->
     <div
       v-if="activeSkillTree"
-      class="w-full mt-12 lg:w-65% lg:mt-0">
-        <ul class="flex overflow-scroll text-sm break-full-width scrollbar-hide pl-5% lg:grid lg:grid-cols-12 lg:gap-4 lg:text-xs lg:mx-0 lg:pl-6 lg:overflow-visible xl:text-sm xl:pl-10">
+      class="relative w-full mt-12 lg:w-65% lg:mt-0">
+        <ul class="relative z-10 flex overflow-scroll text-sm break-full-width scrollbar-hide pl-5% lg:grid lg:grid-cols-12 lg:gap-4 lg:text-xs lg:mx-0 lg:pl-6 lg:overflow-visible xl:text-sm xl:pl-10">
 
           <li
             v-for="perk in activeSkillTree.perks"
@@ -43,7 +43,7 @@
             class="relative flex-shrink-0 w-64 min-h-full mr-5 select-none lg:col-span-4 lg:w-full lg:m-0">
               <div
                 @click="chooseSkill(perk)"
-                class="flex flex-col h-full px-6 pb-6 bg-teal-500 cursor-pointer pt-9 lg:p-5"
+                class="flex flex-col h-full px-6 pb-6 bg-teal-500 cursor-pointer pt-9 lg:h-min-content lg:p-5"
                 :class="perk.chosen > 0 ? 'bg-opacity-100 lg:bg-opacity-50 lg:opacity-100 lg:bg-teal-500' : 'bg-opacity-50 lg:opacity-80 lg:bg-transparent'">
                   <div
                     class="flex items-center pb-2 border-b border-white lg:items-start">
@@ -72,6 +72,13 @@
           </li>
 
         </ul>
+        <!-- Background Image -->
+        <span class="absolute bottom-0 left-0 right-0 flex items-start justify-center opacity-75 -top-10 lg:top-0">
+          <img :src="require(`../assets/img/skill-${activeSkillTree.name}.png`)"
+          alt=""
+          class="w-auto h-72 md:h-96 lg:h-112 xl:h-140">
+        </span>
+        <!-- Close Background Image -->
     </div>
 
     <div

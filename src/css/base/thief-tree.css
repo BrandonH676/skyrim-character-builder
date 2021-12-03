@@ -1,10 +1,10 @@
 .thief-tree {
   .skill-card {
-    @apply bg-green-500 bg-opacity-50 hover:bg-opacity-90;
+    @apply bg-green-500 bg-opacity-50 hover:bg-opacity-80;
   }
 
   .active-skill-card {
-    @apply bg-opacity-90;
+    @apply bg-opacity-80;
   }
 
   /* Alchemy Positioning */
@@ -25,7 +25,7 @@
 
   li[data-name="Benefactor"] {
     grid-row-start: 4;
-    grid-column-start: 5;
+    grid-column-start: 9;
   }
 
   li[data-name="Concentrated Poison"] {
@@ -35,7 +35,7 @@
 
   li[data-name="Experimenter"] {
     grid-row-start: 3;
-    grid-column-start: 5;
+    grid-column-start: 9;
   }
 
   li[data-name="Green Thumb"] {
@@ -45,7 +45,7 @@
 
   li[data-name="Snakeblood"] {
     grid-row-start: 2;
-    grid-column-start: 5;
+    grid-column-start: 9;
   }
 
   li[data-name="Purity"] {

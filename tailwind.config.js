@@ -34,6 +34,9 @@ module.exports = {
       },
       height: {
         'none': '0%',
+        '140': '35rem',
+        '112': '28rem',
+        'min-content': 'min-content',
       },
       letterSpacing: {
         '0.15': '0.15em',
