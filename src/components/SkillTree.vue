@@ -43,8 +43,8 @@
             class="relative flex-shrink-0 w-64 min-h-full mr-5 select-none lg:col-span-4 lg:w-full lg:m-0">
               <div
                 @click="chooseSkill(perk)"
-                class="flex flex-col h-full px-6 pb-6 bg-teal-500 cursor-pointer pt-9 lg:h-min-content lg:p-5"
-                :class="perk.chosen > 0 ? 'bg-opacity-100 lg:bg-opacity-70 lg:opacity-100 lg:bg-teal-500' : 'bg-opacity-70 lg:opacity-90 lg:bg-transparent'">
+                class="flex flex-col h-full px-6 pb-6 bg-teal-500 border cursor-pointer pt-9 lg:h-min-content lg:p-5"
+                :class="perk.chosen > 0 ? 'bg-opacity-100 border-white lg:bg-opacity-60 lg:opacity-100 lg:bg-teal-500' : 'bg-opacity-50 border-transparent lg:opacity-90 lg:bg-transparent'">
                   <div
                     class="flex items-center pb-2 border-b border-white lg:items-start">
                     <span class="mt-1 font-bold leading-tight tracking-wider lg:mt-0">{{perk.name}}</span>
@@ -90,7 +90,7 @@
     </div>
     <!-- Close Active Tree Wrapper -->
 
-    <div class="mt-8 md:w-3/4 md:mx-auto lg:hidden">
+    <div class="relative z-10 mt-8 md:w-3/4 md:mx-auto lg:hidden">
       <Total />
     </div>
 

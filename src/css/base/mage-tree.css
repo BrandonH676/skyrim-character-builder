@@ -60,7 +60,7 @@
 
   /* Conjuration Positioning */
   li[data-name="Novice Conjuration"] {
-    grid-row-start: 6;
+    grid-row-start: 7;
     grid-column-start: 5;
   }
 
@@ -75,7 +75,7 @@
   }
 
   li[data-name="Mystic Binding"] {
-    grid-row-start: 5;
+    grid-row-start: 6;
     grid-column-start: 5;
   }
 
@@ -95,7 +95,7 @@
   }
 
   li[data-name="Soul Stealer"] {
-    grid-row-start: 4;
+    grid-row-start: 5;
     grid-column-start: 5;
   }
 
@@ -111,7 +111,7 @@
 
 
   li[data-name="Necromancy"] {
-    grid-row-start: 2;
+    grid-row-start: 4;
     grid-column-start: 5;
   }
 
@@ -121,7 +121,7 @@
   }
 
   li[data-name="Dark Souls"] {
-    grid-row-start: 1;
+    grid-row-start: 2;
     grid-column-start: 5;
   }
 
@@ -320,23 +320,23 @@
 
   /* Restoration Positioning */
   li[data-name="Novice Restoration"] {
-    grid-row-start: 5;
+    grid-row-start: 6;
     grid-column-start: 5;
   }
 
   li[data-name="Restoration Dual Casting"] {
-    grid-row-start: 5;
+    grid-row-start: 6;
     grid-column-start: 9;
   }
 
   li[data-name="Apprentice Restoration"] {
-    grid-row-start: 4;
-    grid-column-start: 9;
+    grid-row-start: 5;
+    grid-column-start: 5;
   }
 
   li[data-name="Regeneration"] {
-    grid-row-start: 4;
-    grid-column-start: 5;
+    grid-row-start: 5;
+    grid-column-start: 1;
   }
 
   li[data-name="Respite"] {
@@ -345,12 +345,12 @@
   }
 
   li[data-name="Recovery"] {
-    grid-row-start: 3;
-    grid-column-start: 5;
+    grid-row-start: 5;
+    grid-column-start: 9;
   }
 
   li[data-name="Avoid Death"] {
-    grid-row-start: 3;
+    grid-row-start: 4;
     grid-column-start: 9;
   }
 
@@ -365,17 +365,17 @@
   }
 
   li[data-name="Adept Restoration"] {
+    grid-row-start: 3;
+    grid-column-start: 5;
+  }
+
+  li[data-name="Expert Restoration"] {
     grid-row-start: 2;
     grid-column-start: 9;
   }
 
-  li[data-name="Expert Restoration"] {
-    grid-row-start: 1;
-    grid-column-start: 5;
-  }
-
   li[data-name="Master Restoration"] {
     grid-row-start: 1;
-    grid-column-start: 1;
+    grid-column-start: 5;
   }
 }
