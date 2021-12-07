@@ -75,7 +75,7 @@
         <!-- Background Image -->
         <span class="absolute bottom-0 left-0 right-0 flex items-start justify-center opacity-75 -top-10 lg:top-0">
           <img :src="require(`../assets/img/skill-${activeSkillTree.name}.png`)"
-          :alt="'Elder Scrolls V Skyrim '+activeSkillTree.name+' skill selection tree'"
+          :alt="'Elder Scrolls V Skyrim '+activeSkillTree.name+' perk selection tree'"
           class="w-auto h-72 md:h-96 lg:h-112 xl:h-140">
         </span>
         <!-- Close Background Image -->
