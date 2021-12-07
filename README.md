@@ -24,7 +24,6 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## Usage
-```
 - Navigate to each of the 3 skill classes using the menu at the top.
 
 - Choose the parent level skill tree.
