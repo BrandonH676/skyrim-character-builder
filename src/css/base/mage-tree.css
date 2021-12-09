@@ -137,23 +137,24 @@
 
   /* Destruction Positioning */
   li[data-name="Novice Destruction"] {
+    @apply lg:mt-10;
     grid-row-start: 6;
-    grid-column-start: 5;
+    grid-column-start: 7;
   }
 
   li[data-name="Destruction Dual Casting"] {
     grid-row-start: 6;
-    grid-column-start: 9;
+    grid-column-start: 10;
   }
 
   li[data-name="Apprentice Destruction"] {
     grid-row-start: 5;
-    grid-column-start: 5;
+    grid-column-start: 7;
   }
 
   li[data-name="Impact"] {
     grid-row-start: 5;
-    grid-column-start: 9;
+    grid-column-start: 10;
   }
 
   li[data-name="Augmented Flame"] {
@@ -163,22 +164,22 @@
 
   li[data-name="Augmented Frost"] {
     grid-row-start: 4;
-    grid-column-start: 5;
+    grid-column-start: 4;
   }
 
   li[data-name="Augmented Shock"] {
     grid-row-start: 4;
-    grid-column-start: 9;
+    grid-column-start: 7;
+  }
+
+  li[data-name="Rune Master"] {
+    grid-row-start: 4;
+    grid-column-start: 10;
   }
 
   li[data-name="Adept Destruction"] {
     grid-row-start: 3;
-    grid-column-start: 5;
-  }
-
-  li[data-name="Rune Master"] {
-    grid-row-start: 3;
-    grid-column-start: 9;
+    grid-column-start: 7;
   }
 
   li[data-name="Intense Flames"] {
@@ -188,22 +189,22 @@
 
   li[data-name="Deep Freeze"] {
     grid-row-start: 2;
-    grid-column-start: 5;
+    grid-column-start: 4;
   }
 
   li[data-name="Disintegrate"] {
     grid-row-start: 2;
-    grid-column-start: 9;
+    grid-column-start: 7;
   }
 
   li[data-name="Expert Destruction"] {
-    grid-row-start: 1;
-    grid-column-start: 5;
+    grid-row-start: 2;
+    grid-column-start: 10;
   }
 
   li[data-name="Master Destruction"] {
     grid-row-start: 1;
-    grid-column-start: 1;
+    grid-column-start: 9;
   }
 
   /* Enchanting Position */

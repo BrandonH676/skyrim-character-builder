@@ -1,8 +1,8 @@
 <template>
-  <div class="w-11/12 pb-20 mx-auto md:pb-28 lg:flex lg:w-full lg:px-6 xl:w-11/12 xl:px-0 2xl:w-10/12">
+  <div class="w-11/12 pb-20 mx-auto md:pb-28 lg:flex lg:w-full lg:px-4 xl:w-11/12 xl:px-0 2xl:w-10/12">
   
     <!-- Skill Cards Wrapper -->
-    <div class="grid w-full grid-cols-8 gap-4 mx-auto md:w-3/4 lg:w-35% lg:h-none lg:mx-0">
+    <div class="grid w-full grid-cols-8 gap-4 mx-auto md:w-3/4 lg:w-30% lg:h-none lg:mx-0">
       <div
         v-for="skill in skills"
         :key="skill.name"
@@ -15,7 +15,7 @@
              class="object-cover w-full h-full lg:object-contain">
           </div>
           <div class="absolute inset-0 z-10 flex flex-col items-center justify-center w-full h-full">
-            <span class="mb-0.5 text-xs font-medium tracking-0.15 uppercase md:text-sm xl:text-base">
+            <span class="mb-0.5 text-xs font-medium tracking-0.15 uppercase md:text-sm lg:text-xs xl:text-sm">
               {{skill.name}}
             </span>
             <span class="text-base font-medium tracking-wide md:text-lg xl:text-xl">
@@ -33,17 +33,17 @@
     <!-- Active Tree Wrapper -->
     <div
       v-if="activeSkillTree"
-      class="relative w-full mt-12 lg:w-65% lg:mt-0">
-        <ul class="relative z-10 flex overflow-scroll text-sm break-full-width scrollbar-hide pl-5% lg:grid lg:grid-cols-12 lg:gap-4 lg:text-xs lg:mx-0 lg:pl-6 lg:overflow-visible xl:text-sm xl:pl-10">
+      class="relative w-full mt-12 lg:w-70% lg:mt-0">
+        <ul class="relative z-10 flex overflow-scroll text-sm break-full-width scrollbar-hide pl-5% lg:grid lg:grid-cols-12 lg:gap-2 lg:text-xs lg:mx-0 lg:pl-4 lg:overflow-visible xl:pl-6">
 
           <li
             v-for="perk in activeSkillTree.perks"
             :key="perk.name"
             :data-name="perk.name"
-            class="relative flex-shrink-0 w-64 min-h-full mr-5 select-none lg:col-span-4 lg:w-full lg:m-0">
+            class="relative flex-shrink-0 w-64 min-h-full mr-5 select-none lg:col-span-3 lg:w-full lg:m-0">
               <div
                 @click="chooseSkill(perk)"
-                class="flex flex-col h-full px-6 pb-6 bg-teal-500 border cursor-pointer pt-9 lg:h-min-content lg:p-5"
+                class="flex flex-col h-full px-6 pb-6 bg-teal-500 border cursor-pointer pt-9 lg:h-min-content lg:p-3"
                 :class="perk.chosen > 0 ? 'bg-opacity-100 border-white lg:bg-opacity-60 lg:opacity-100 lg:bg-teal-500' : 'bg-opacity-50 border-transparent lg:opacity-90 lg:bg-transparent'">
                   <div
                     class="flex items-center pb-2 border-b border-white lg:items-start">
@@ -52,12 +52,12 @@
                   </div>
                   <div
                     v-if="perk.chosen < perk.steps"
-                    class="mt-2 lg:tracking-wider">
+                    class="mt-2 lg:leading-snug">
                       {{perk.description[perk.chosen]}}
                   </div>
                   <div
                     v-else
-                    class="mt-2 lg:tracking-wider">
+                    class="mt-2 lg:leading-snug">
                       {{perk.description[perk.description.length - 1]}}
                   </div>
               </div>
