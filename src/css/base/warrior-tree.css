@@ -10,7 +10,7 @@
   /* Archery Positioning */
   li[data-name="Overdraw"] {
     grid-row-start: 5;
-    grid-column-start: 5;
+    grid-column-start: 7;
   }
 
   li[data-name="Eagle Eye"] {
@@ -20,12 +20,13 @@
 
   li[data-name="Critical Shot"] {
     grid-row-start: 4;
-    grid-column-start: 9;
+    grid-column-start: 7;
   }
 
   li[data-name="Steady Hand"] {
+    @apply lg:transform lg:-translate-y-8;
     grid-row-start: 4;
-    grid-column-start: 5;
+    grid-column-start: 4;
   }
 
   li[data-name="Power Shot"] {
@@ -35,17 +36,17 @@
 
   li[data-name="Hunter's Discipline"] {
     grid-row-start: 3;
-    grid-column-start: 5;
+    grid-column-start: 7;
   }
 
   li[data-name="Quick Shot"] {
     grid-row-start: 2;
-    grid-column-start: 1;
+    grid-column-start: 2;
   }
 
   li[data-name="Ranger"] {
     grid-row-start: 2;
-    grid-column-start: 5;
+    grid-column-start: 6;
   }
 
   li[data-name="Bullseye"] {
@@ -70,6 +71,7 @@
   }
 
   li[data-name="Quick Reflexes"] {
+    @apply lg:transform lg:-translate-y-14;
     grid-row-start: 4;
     grid-column-start: 5;
   }
