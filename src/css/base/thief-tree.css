@@ -144,12 +144,12 @@
   /* Pickpocekt Positioning */
   li[data-name="Light Fingers"] {
     grid-row-start: 5;
-    grid-column-start: 5;
+    grid-column-start: 3;
   }
 
   li[data-name="Night Thief"] {
     grid-row-start: 4;
-    grid-column-start: 5;
+    grid-column-start: 4;
   }
 
   li[data-name="Poisoned"] {

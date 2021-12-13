@@ -24,7 +24,7 @@
           </div>
       </div>
 
-      <div class="hidden col-span-8 mt-6 lg:block">
+      <div class="hidden col-span-8 mt-12 lg:block">
         <Total />
       </div>
     </div>
