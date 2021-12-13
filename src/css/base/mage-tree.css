@@ -15,37 +15,37 @@
 
   li[data-name="Alteration Dual Casting"] {
     grid-row-start: 4;
-    grid-column-start: 1;
+    grid-column-start: 2;
   }
 
   li[data-name="Apprentice Alteration"] {
     grid-row-start: 4;
-    grid-column-start: 5;
+    grid-column-start: 6;
   }
 
   li[data-name="Adept Alteration"] {
     grid-row-start: 3;
-    grid-column-start: 5;
+    grid-column-start: 6;
   }
 
   li[data-name="Mage Armor"] {
     grid-row-start: 3;
-    grid-column-start: 1;
+    grid-column-start: 2;
   }
 
   li[data-name="Magic Resistance"] {
     grid-row-start: 3;
-    grid-column-start: 9;
+    grid-column-start: 10;
   }
 
   li[data-name="Expert Alteration"] {
     grid-row-start: 2;
-    grid-column-start: 5;
+    grid-column-start: 7;
   }
 
   li[data-name="Stability"] {
     grid-row-start: 2;
-    grid-column-start: 1;
+    grid-column-start: 2;
   }
 
   li[data-name="Atronach"] {
@@ -55,64 +55,65 @@
 
   li[data-name="Master Alteration"] {
     grid-row-start: 1;
-    grid-column-start: 9;
+    grid-column-start: 10;
   }
 
   /* Conjuration Positioning */
   li[data-name="Novice Conjuration"] {
-    grid-row-start: 7;
-    grid-column-start: 5;
+    grid-row-start: 6;
+    grid-column-start: 6;
   }
 
   li[data-name="Apprentice Conjuration"] {
-    grid-row-start: 6;
-    grid-column-start: 9;
+    @apply lg:transform lg:-translate-y-16;
+    grid-row-start: 5;
+    grid-column-start: 10;
   }
 
   li[data-name="Conjuration Dual Casting"] {
-    grid-row-start: 6;
-    grid-column-start: 1;
+    grid-row-start: 5;
+    grid-column-start: 4;
   }
 
   li[data-name="Mystic Binding"] {
-    grid-row-start: 6;
-    grid-column-start: 5;
+    grid-row-start: 5;
+    grid-column-start: 7;
   }
 
   li[data-name="Summoner"] {
-    grid-row-start: 5;
-    grid-column-start: 1;
-  }
-
-  li[data-name="Adept Conjuration"] {
-    grid-row-start: 5;
-    grid-column-start: 9;
-  }
-
-  li[data-name="Expert Conjuration"] {
     grid-row-start: 4;
-    grid-column-start: 9;
+    grid-column-start: 1;
   }
 
   li[data-name="Soul Stealer"] {
-    grid-row-start: 5;
-    grid-column-start: 5;
+    grid-row-start: 3;
+    grid-column-start: 7;
   }
 
   li[data-name="Atromancy"] {
-    grid-row-start: 4;
+    grid-row-start: 3;
     grid-column-start: 1;
   }
 
-  li[data-name="Oblivion Binding"] {
+  li[data-name="Necromancy"] {
     grid-row-start: 3;
-    grid-column-start: 5;
+    grid-column-start: 4;
   }
 
+  li[data-name="Adept Conjuration"] {
+    @apply lg:transform lg:translate-y-12;
+    grid-row-start: 3;
+    grid-column-start: 10;
+  }
 
-  li[data-name="Necromancy"] {
-    grid-row-start: 4;
-    grid-column-start: 5;
+  li[data-name="Expert Conjuration"] {
+    grid-row-start: 2;
+    grid-column-start: 10;
+  }
+
+  li[data-name="Oblivion Binding"] {
+    grid-row-start: 2;
+    grid-column-start: 7;
   }
 
   li[data-name="Elemental Potency"] {
@@ -122,12 +123,12 @@
 
   li[data-name="Dark Souls"] {
     grid-row-start: 2;
-    grid-column-start: 5;
+    grid-column-start: 4;
   }
 
   li[data-name="Twin Souls"] {
     grid-row-start: 1;
-    grid-column-start: 1;
+    grid-column-start: 4;
   }
 
   li[data-name="Master Conjuration"] {
@@ -137,23 +138,24 @@
 
   /* Destruction Positioning */
   li[data-name="Novice Destruction"] {
+    @apply lg:transform lg:translate-y-12;
     grid-row-start: 6;
-    grid-column-start: 5;
+    grid-column-start: 6;
   }
 
   li[data-name="Destruction Dual Casting"] {
     grid-row-start: 6;
-    grid-column-start: 9;
+    grid-column-start: 10;
   }
 
   li[data-name="Apprentice Destruction"] {
     grid-row-start: 5;
-    grid-column-start: 5;
+    grid-column-start: 7;
   }
 
   li[data-name="Impact"] {
     grid-row-start: 5;
-    grid-column-start: 9;
+    grid-column-start: 10;
   }
 
   li[data-name="Augmented Flame"] {
@@ -163,22 +165,22 @@
 
   li[data-name="Augmented Frost"] {
     grid-row-start: 4;
-    grid-column-start: 5;
+    grid-column-start: 4;
   }
 
   li[data-name="Augmented Shock"] {
     grid-row-start: 4;
-    grid-column-start: 9;
+    grid-column-start: 7;
+  }
+
+  li[data-name="Rune Master"] {
+    grid-row-start: 4;
+    grid-column-start: 10;
   }
 
   li[data-name="Adept Destruction"] {
     grid-row-start: 3;
-    grid-column-start: 5;
-  }
-
-  li[data-name="Rune Master"] {
-    grid-row-start: 3;
-    grid-column-start: 9;
+    grid-column-start: 7;
   }
 
   li[data-name="Intense Flames"] {
@@ -188,22 +190,22 @@
 
   li[data-name="Deep Freeze"] {
     grid-row-start: 2;
-    grid-column-start: 5;
+    grid-column-start: 4;
   }
 
   li[data-name="Disintegrate"] {
     grid-row-start: 2;
-    grid-column-start: 9;
+    grid-column-start: 7;
   }
 
   li[data-name="Expert Destruction"] {
-    grid-row-start: 1;
-    grid-column-start: 5;
+    grid-row-start: 2;
+    grid-column-start: 10;
   }
 
   li[data-name="Master Destruction"] {
     grid-row-start: 1;
-    grid-column-start: 1;
+    grid-column-start: 9;
   }
 
   /* Enchanting Position */
@@ -233,6 +235,7 @@
   }
 
   li[data-name="Corpus Enchanter"] {
+    @apply lg:transform lg:translate-x-8;
     grid-row-start: 3;
     grid-column-start: 5;
   }
@@ -259,48 +262,51 @@
   }
 
   li[data-name="Novice Illusion"] {
+    @apply lg:transform lg:translate-y-12;
     grid-row-start: 5;
-    grid-column-start: 5;
+    grid-column-start: 6;
   }
 
   li[data-name="Animage"] {
+    @apply lg:transform lg:translate-y-24;
     grid-row-start: 4;
-    grid-column-start: 9;
+    grid-column-start: 10;
   }
 
   li[data-name="Hypnotic Gaze"] {
     grid-row-start: 4;
-    grid-column-start: 5;
+    grid-column-start: 6;
   }
 
   li[data-name="Apprentice Illusion"] {
     grid-row-start: 4;
-    grid-column-start: 1;
+    grid-column-start: 2;
   }
 
   li[data-name="Kindred Mage"] {
+    @apply lg:transform lg:translate-y-20;
     grid-row-start: 3;
     grid-column-start: 9;
   }
 
   li[data-name="Aspect of Terror"] {
     grid-row-start: 3;
-    grid-column-start: 5;
+    grid-column-start: 6;
   }
 
   li[data-name="Adept Illusion"] {
     grid-row-start: 3;
-    grid-column-start: 1;
+    grid-column-start: 2;
   }
 
   li[data-name="Expert Illusion"] {
     grid-row-start: 2;
-    grid-column-start: 1;
+    grid-column-start: 2;
   }
 
   li[data-name="Rage"] {
     grid-row-start: 2;
-    grid-column-start: 5;
+    grid-column-start: 6;
   }
 
   li[data-name="Quiet Casting"] {
@@ -310,33 +316,34 @@
 
   li[data-name="Master Illusion"] {
     grid-row-start: 1;
-    grid-column-start: 1;
+    grid-column-start: 3;
   }
 
   li[data-name="Master of the Mind"] {
     grid-row-start: 1;
-    grid-column-start: 5;
+    grid-column-start: 8;
   }
 
   /* Restoration Positioning */
   li[data-name="Novice Restoration"] {
-    grid-row-start: 6;
-    grid-column-start: 5;
+    @apply lg:transform lg:translate-y-14;
+    grid-row-start: 5;
+    grid-column-start: 6;
   }
 
   li[data-name="Restoration Dual Casting"] {
-    grid-row-start: 6;
-    grid-column-start: 9;
+    grid-row-start: 5;
+    grid-column-start: 10;
   }
 
   li[data-name="Apprentice Restoration"] {
-    grid-row-start: 5;
-    grid-column-start: 5;
+    grid-row-start: 4;
+    grid-column-start: 7;
   }
 
   li[data-name="Regeneration"] {
-    grid-row-start: 5;
-    grid-column-start: 1;
+    grid-row-start: 4;
+    grid-column-start: 4;
   }
 
   li[data-name="Respite"] {
@@ -345,37 +352,40 @@
   }
 
   li[data-name="Recovery"] {
-    grid-row-start: 5;
-    grid-column-start: 9;
+    grid-row-start: 4;
+    grid-column-start: 10;
   }
 
   li[data-name="Avoid Death"] {
-    grid-row-start: 4;
-    grid-column-start: 9;
+    grid-row-start: 3;
+    grid-column-start: 10;
   }
 
   li[data-name="Necromage"] {
-    grid-row-start: 2;
+    @apply lg:transform lg:-translate-y-16;
+    grid-row-start: 3;
     grid-column-start: 1;
   }
 
   li[data-name="Ward Absorb"] {
-    grid-row-start: 2;
-    grid-column-start: 5;
+    @apply lg:transform lg:-translate-y-16;
+    grid-row-start: 3;
+    grid-column-start: 4;
   }
 
   li[data-name="Adept Restoration"] {
     grid-row-start: 3;
-    grid-column-start: 5;
+    grid-column-start: 7;
   }
 
   li[data-name="Expert Restoration"] {
+    @apply lg:transform lg:translate-x-4;
     grid-row-start: 2;
-    grid-column-start: 9;
+    grid-column-start: 7;
   }
 
   li[data-name="Master Restoration"] {
     grid-row-start: 1;
-    grid-column-start: 5;
+    grid-column-start: 6;
   }
 }

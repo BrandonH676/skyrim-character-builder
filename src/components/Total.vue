@@ -1,11 +1,11 @@
 <template>
 
-  <div class="flex text-lg font-bold tracking-wider xl:text-xl">
+  <div class="flex text-lg font-bold tracking-wider lg:whitespace-nowrap xl:text-xl">
     <span>Total Perks Taken:</span>
     <span class="ml-3">{{this.$store.state.totalPerks}}</span>
   </div>
 
-  <div class="flex mt-1 text-lg font-bold tracking-wider xl:text-xl">
+  <div class="flex mt-1 text-lg font-bold tracking-wider lg:whitespace-nowrap xl:text-xl">
     <span>Required Character Level:</span>
     <span class="ml-3">{{this.$store.state.totalPerks + 1}}</span>
   </div>
