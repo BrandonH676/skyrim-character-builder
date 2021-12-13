@@ -1,8 +1,8 @@
 <template>
-  <div class="w-11/12 pb-20 mx-auto md:pb-28 lg:flex lg:w-full lg:px-4 xl:w-11/12 xl:px-0">
+  <div class="w-11/12 mx-auto pb-28 md:pb-32 lg:flex lg:w-full lg:px-4 lg:pb-28 xl:w-11/12 xl:px-0">
   
     <!-- Skill Cards Wrapper -->
-    <div class="grid w-full grid-cols-8 gap-4 mx-auto md:w-3/4 lg:w-30% lg:h-none lg:mx-0">
+    <div class="grid w-full grid-cols-8 gap-4 mx-auto md:w-3/4 lg:w-30% lg:h-none lg:mx-0 lg:pt-16">
       <div
         v-for="skill in skills"
         :key="skill.name"
@@ -24,7 +24,7 @@
           </div>
       </div>
 
-      <div class="hidden col-span-8 mt-12 lg:block">
+      <div class="hidden col-span-8 mt-6 lg:block">
         <Total />
       </div>
     </div>
@@ -33,7 +33,7 @@
     <!-- Active Tree Wrapper -->
     <div
       v-if="activeSkillTree"
-      class="relative w-full mt-12 lg:w-70% lg:mt-0">
+      class="relative w-full mt-12 lg:w-70% lg:min-h-200 lg:mt-0 xl:min-h-260">
         <ul class="relative z-10 flex overflow-scroll text-sm break-full-width scrollbar-hide pl-5% lg:grid lg:grid-cols-12 lg:gap-2 lg:text-xs lg:mx-0 lg:pl-4 lg:overflow-visible xl:gap-5 xl:text-sm xl:pl-6">
 
           <li
@@ -44,7 +44,7 @@
               <div
                 @click="chooseSkill(perk)"
                 class="flex flex-col h-full px-6 pb-6 bg-teal-500 border cursor-pointer pt-9 lg:h-min-content lg:pt-6 lg:px-2 lg:pb-2 xl:px-3 xl:pb-3 2xl:px-4 2xl:pb-4"
-                :class="perk.chosen > 0 ? 'bg-opacity-100 border-white lg:bg-opacity-60 lg:opacity-100 lg:bg-teal-500' : 'bg-opacity-50 border-transparent lg:opacity-90 lg:bg-transparent'">
+                :class="perk.chosen > 0 ? 'bg-opacity-100 border-white lg:bg-opacity-40 lg:opacity-100 lg:bg-teal-500' : 'bg-opacity-50 border-transparent lg:opacity-90 lg:bg-transparent'">
                   <div
                     class="flex items-center pb-2 border-b border-white lg:items-end">
                     <span class="mt-1 font-bold leading-tight tracking-wider lg:mt-0">{{perk.name}}</span>
@@ -73,7 +73,7 @@
 
         </ul>
         <!-- Background Image -->
-        <span class="absolute bottom-0 left-0 right-0 flex items-start justify-center opacity-75 -top-10 lg:top-0">
+        <span class="absolute bottom-0 left-0 right-0 flex items-start justify-center opacity-75 -top-10 lg:top-10">
           <img :src="require(`../assets/img/skill-${activeSkillTree.name}.png`)"
           :alt="'Elder Scrolls V Skyrim '+activeSkillTree.name+' perk selection tree'"
           class="w-auto h-72 md:h-96 lg:h-112 xl:h-140">

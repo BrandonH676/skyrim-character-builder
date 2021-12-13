@@ -41,6 +41,10 @@ module.exports = {
       letterSpacing: {
         '0.15': '0.15em',
       },
+      minHeight: {
+        '200': '50rem',
+        '260': '65rem',
+      },
       screens: {
         '2xl': '1440px',
       },

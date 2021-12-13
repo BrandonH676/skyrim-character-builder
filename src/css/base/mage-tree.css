@@ -268,7 +268,7 @@
   }
 
   li[data-name="Animage"] {
-    @apply lg:transform lg:translate-y-16;
+    @apply lg:transform lg:translate-y-24;
     grid-row-start: 4;
     grid-column-start: 10;
   }
@@ -284,7 +284,7 @@
   }
 
   li[data-name="Kindred Mage"] {
-    @apply lg:transform lg:translate-y-14;
+    @apply lg:transform lg:translate-y-20;
     grid-row-start: 3;
     grid-column-start: 9;
   }
