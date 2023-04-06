@@ -1,3 +1,7 @@
+<script setup>
+import Total from '@/components/Total.vue';
+</script>
+
 <template>
   <div class="container mt-8 md:mt-10 lg:mt-14">
 
@@ -17,15 +21,3 @@
 
   </div>
 </template>
-
-<script>
-import Total from '@/components/Total.vue';
-
-export default {
-  name: "Home",
-  components: {
-    Total
-  }
-}
-
-</script>

@@ -1,3 +1,15 @@
+<script setup>
+import SkillTree from '@/components/SkillTree.vue';
+import { computed } from "vue";
+import { useStore } from 'vuex';
+
+const store = useStore();
+
+const skills = computed(() => {
+  return store.state.thiefSkillTree;
+})
+</script>
+
 <template>
   <div class="overflow-hidden">
     <div class="container mt-3 thief-tree">
@@ -11,19 +23,3 @@
     </div>
   </div>
 </template>
- 
-<script>
-import SkillTree from '@/components/SkillTree.vue';
-
-export default {
-  name: "Thief",
-  components: {
-    SkillTree
-  },
-  data() {
-    return {
-      skills: this.$store.state.thiefSkillTree
-    }
-  }
-}
-</script>
