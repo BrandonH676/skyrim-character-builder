@@ -1,9 +1,9 @@
 <script setup>
 import SkillTree from '@/components/SkillTree.vue';
 import { computed } from "vue";
-import { useStore } from 'vuex';
+import { Store } from '@/stores/store.js';
 
-const store = useStore();
+const store = Store();
 
 const skills = computed(() => {
   return store.state.warriorSkillTree;

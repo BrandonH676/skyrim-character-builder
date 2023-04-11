@@ -1,9 +1,9 @@
 <script setup>
 import Total from '@/components/Total.vue';
 import { ref } from "vue";
-import { useStore } from 'vuex';
+import { Store } from '@/stores/store.js';
 
-const store = useStore();
+const store = Store();
 
 const activeSkillTree = ref(null);
 
@@ -20,13 +20,13 @@ const chooseSkill = (perk) => {
     perk.chosen += 1;
 
     activeSkillTree.value.perksTaken += 1;
-    store.commit('INCREMENT_PERKS');
+    store.incrementPerks();
   }
 }
 
 const removeSkill = (perk) => {
   activeSkillTree.value.perksTaken -= perk.chosen;
-  store.commit('DECREMENT_PERKS', perk.chosen);
+  store.decrementPerks(perk.chosen);
 
   perk.chosen = 0;
 }

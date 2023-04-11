@@ -1,15 +1,15 @@
 <script setup>
 import { computed } from "vue";
-import { useStore } from 'vuex';
+import { Store } from '@/stores/store.js';
 
-const store = useStore();
+const store = Store();
 
 const totalPerks = computed(() => {
   return store.state.totalPerks;
 })
 
 const clearPerks = () => {
-  store.dispatch('ResetAll');
+  store.resetAll();
 }
 </script>
 
