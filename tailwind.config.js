@@ -32,11 +32,17 @@ module.exports = {
           500: '#14696d',
         },
       },
+      fontSize: {
+        '0.625': '0.625rem',
+      },
       height: {
         'none': '0%',
         '140': '35rem',
         '112': '28rem',
         'min-content': 'min-content',
+      },
+      gridTemplateColumns: {
+        15: 'repeat(15, minmax(0, 1fr))',
       },
       letterSpacing: {
         '0.15': '0.15em',

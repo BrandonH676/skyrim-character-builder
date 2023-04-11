@@ -9,34 +9,37 @@
 
   /* Archery Positioning */
   li[data-name="Overdraw"] {
-    grid-row-start: 5;
-    grid-column-start: 6;
+    @apply lg:transform lg:translate-y-10;
+    grid-row-start: 6;
+    grid-column-start: 10;
   }
 
   li[data-name="Eagle Eye"] {
-    grid-row-start: 4;
-    grid-column-start: 1;
+    grid-row-start: 5;
+    grid-column-start: 2;
   }
 
   li[data-name="Critical Shot"] {
-    grid-row-start: 4;
-    grid-column-start: 7;
+    @apply lg:transform lg:-translate-x-6;
+    grid-row-start: 5;
+    grid-column-start: 10;
   }
 
   li[data-name="Steady Hand"] {
-    @apply lg:transform lg:-translate-y-8;
-    grid-row-start: 4;
-    grid-column-start: 4;
+    @apply lg:transform lg:-translate-y-12 lg:translate-x-6;
+    grid-row-start: 5;
+    grid-column-start: 5;
   }
 
   li[data-name="Power Shot"] {
-    grid-row-start: 3;
-    grid-column-start: 1;
+     @apply lg:transform lg:-translate-y-12 lg:-translate-x-4;
+    grid-row-start: 4;
+    grid-column-start: 2;
   }
 
   li[data-name="Hunter's Discipline"] {
     grid-row-start: 3;
-    grid-column-start: 7;
+    grid-column-start: 8;
   }
 
   li[data-name="Quick Shot"] {
@@ -45,8 +48,9 @@
   }
 
   li[data-name="Ranger"] {
+    @apply lg:transform lg:-translate-x-6;
     grid-row-start: 2;
-    grid-column-start: 6;
+    grid-column-start: 8;
   }
 
   li[data-name="Bullseye"] {
@@ -56,243 +60,261 @@
 
   /* Block Positioning */
   li[data-name="Shield Wall"] {
-    grid-row-start: 5;
-    grid-column-start: 5; 
+    @apply lg:transform lg:translate-y-4;
+    grid-row-start: 6;
+    grid-column-start: 7; 
   }
 
   li[data-name="Deflect Arrows"] {
-    grid-row-start: 4;
+    @apply lg:transform lg:translate-x-5;
+    grid-row-start: 5;
     grid-column-start: 1;
   }
 
   li[data-name="Power Bash"] {
-    grid-row-start: 4;
-    grid-column-start: 9;
+    grid-row-start: 5;
+    grid-column-start: 11;
   }
 
   li[data-name="Quick Reflexes"] {
-    @apply lg:transform lg:-translate-y-14;
+    @apply lg:transform lg:-translate-y-16;
+    grid-row-start: 5;
+    grid-column-start: 6;
+  }
+
+  li[data-name="Deadly Bash"] {
+     @apply lg:transform lg:-translate-y-20;
     grid-row-start: 4;
-    grid-column-start: 5;
+    grid-column-start: 11;
   }
 
   li[data-name="Elemental Protection"] {
     grid-row-start: 3;
-    grid-column-start: 1;
-  }
-
-  li[data-name="Deadly Bash"] {
-    grid-row-start: 3;
-    grid-column-start: 9;
+    grid-column-start: 2;
   }
 
   li[data-name="Block Runner"] {
     grid-row-start: 2;
-    grid-column-start: 2;
+    grid-column-start: 4;
   }
 
   li[data-name="Disarming Bash"] {
     grid-row-start: 2;
-    grid-column-start: 8;
+    grid-column-start: 10;
   }
 
   li[data-name="Shield Charge"] {
     grid-row-start: 1;
-    grid-column-start: 5;
+    grid-column-start: 7;
   }
 
   /* Heavy Armor Positioning */
   li[data-name="Juggernaut"] {
     grid-row-start: 5;
-    grid-column-start: 5;
+    grid-column-start: 7;
   }
 
   li[data-name="Fists of Steel"] {
     grid-row-start: 4;
-    grid-column-start: 2;
+    grid-column-start: 3;
   }
 
   li[data-name="Well Fitted"] {
     grid-row-start: 4;
-    grid-column-start: 8;
+    grid-column-start: 10;
   }
 
   li[data-name="Cushioned"] {
     grid-row-start: 3;
-    grid-column-start: 1;
+    grid-column-start: 2;
   }
 
   li[data-name="Tower of Strength"] {
+    @apply lg:transform lg:translate-x-4;
     grid-row-start: 3;
-    grid-column-start: 9;
+    grid-column-start: 10;
   }
 
   li[data-name="Conditioning"] {
     grid-row-start: 2;
-    grid-column-start: 1;
+    grid-column-start: 2;
   }
 
   li[data-name="Matching Set"] {
     grid-row-start: 2;
-    grid-column-start: 9;
+    grid-column-start: 11;
   }
 
   li[data-name="Reflect Blows"] {
     grid-row-start: 1;
-    grid-column-start: 8;
+    grid-column-start: 10;
   }
 
   /* One Handed Positioning */
   li[data-name="Armsman"] {
-    grid-row-start: 5;
-    grid-column-start: 4;
+    @apply lg:transform lg:-translate-y-16 lg:-translate-x-6;
+    grid-row-start: 7;
+    grid-column-start: 6;
   }
 
   li[data-name="Dual Flurry"] {
-    @apply lg:transform lg:-translate-y-10;
-    grid-row-start: 5;
-    grid-column-start: 9;
+    @apply lg:transform lg:-translate-y-12;
+    grid-row-start: 6;
+    grid-column-start: 13;
   }
 
   li[data-name="Fighting Stance"] {
-    grid-row-start: 4;
-    grid-column-start: 4;
+    @apply lg:transform lg:-translate-x-6;
+    grid-row-start: 5;
+    grid-column-start: 6;
   }
 
   li[data-name="Hack and Slash"] {
-    grid-row-start: 3;
+    @apply lg:transform lg:translate-x-7;
+    grid-row-start: 4;
     grid-column-start: 1;
   }
 
   li[data-name="Bone Breaker"] {
-    grid-row-start: 3;
-    grid-column-start: 5;
-  }
-
-  li[data-name="Bladesman"] {
-    grid-row-start: 3;
+    grid-row-start: 4;
     grid-column-start: 8;
   }
 
+  li[data-name="Bladesman"] {
+    grid-row-start: 4;
+    grid-column-start: 11;
+  }
+
   li[data-name="Savage Strike"] {
-    grid-row-start: 2;
-    grid-column-start: 2;
+    @apply lg:transform lg:translate-x-4;
+    grid-row-start: 3;
+    grid-column-start: 3;
   }
 
   li[data-name="Critical Charge"] {
-    grid-row-start: 2;
-    grid-column-start: 5;
+    @apply lg:transform lg:translate-x-4;
+    grid-row-start: 3;
+    grid-column-start: 7;
   }
 
   li[data-name="Dual Savagery"] {
-    @apply lg:transform lg:-translate-y-16;
+    @apply lg:transform lg:-translate-y-6 lg:translate-x-8;
     grid-row-start: 2;
-    grid-column-start: 9;
+    grid-column-start: 11;
   }
 
   li[data-name="Paralyzing Strike"] {
+    @apply lg:transform lg:-translate-x-6;
     grid-row-start: 1;
-    grid-column-start: 4;
+    grid-column-start: 6;
   }
 
   /* Smithing Positioning */
   li[data-name="Steel Smithing"] {
-    @apply lg:transform lg:-translate-y-12;
+    @apply lg:transform lg:translate-y-12;
     grid-row-start: 5;
     grid-column-start: 5;
   }
 
-  li[data-name="Arcane Blacksmith"] {
-    @apply lg:transform lg:-translate-y-16;
+  li[data-name="Dwarven Smithing"] {
+    @apply lg:transform lg:translate-x-6 lg:-translate-y-8;
     grid-row-start: 4;
+    grid-column-start: 8;
+  }
+
+  li[data-name="Arcane Blacksmith"] {
+    @apply lg:transform lg:translate-y-14;
+    grid-row-start: 3;
     grid-column-start: 5;
   }
 
-  li[data-name="Dwarven Smithing"] {
-    grid-row-start: 4;
-    grid-column-start: 9;
-  }
-
   li[data-name="Elven Smithing"] {
+    @apply lg:transform lg:translate-y-14;
     grid-row-start: 3;
     grid-column-start: 1;
   }
 
   li[data-name="Orcish Smithing"] {
-    grid-row-start: 3;
-    grid-column-start: 9;
+    @apply lg:transform lg:translate-y-10 lg:-translate-x-4;
+    grid-row-start: 2;
+    grid-column-start: 10;
   }
 
   li[data-name="Advanced Armors"] {
+    @apply lg:transform lg:translate-y-10 lg:translate-x-4;
     grid-row-start: 2;
     grid-column-start: 1;
   }
 
   li[data-name="Ebony Smithing"] {
+    @apply lg:transform lg:translate-y-10;
     grid-row-start: 2;
-    grid-column-start: 10;
+    grid-column-start: 13;
   }
 
   li[data-name="Glass Smithing"] {
     grid-row-start: 1;
-    grid-column-start: 2;
+    grid-column-start: 3;
   }
 
   li[data-name="Daedric Smithing"] {
+    @apply lg:transform lg:translate-y-8;
     grid-row-start: 1;
-    grid-column-start: 8;
+    grid-column-start: 10;
   }
 
   li[data-name="Dragon Armor"] {
+    @apply lg:transform lg:-translate-x-4;
     grid-row-start: 1;
-    grid-column-start: 5;
+    grid-column-start: 7;
   }
 
   /* Two Handed Positioning */
   li[data-name="Warmaster"] {
     grid-row-start: 1;
-    grid-column-start: 4;
+    grid-column-start: 7;
   }
 
   li[data-name="Sweep"] {
     grid-row-start: 2;
-    grid-column-start: 4;
+    grid-column-start: 7;
   }
 
   li[data-name="Great Critical Charge"] {
+    @apply lg:transform lg:-translate-x-4;
     grid-row-start: 3;
-    grid-column-start: 2;
+    grid-column-start: 5;
   }
 
   li[data-name="Devastating Blow"] {
+    @apply lg:transform lg:-translate-x-10;
     grid-row-start: 3;
-    grid-column-start: 6;
+    grid-column-start: 10;
   }
 
   li[data-name="Skullcrusher"] {
     grid-row-start: 4;
-    grid-column-start: 10;
+    grid-column-start: 13;
   }
 
   li[data-name="Limbsplitter"] {
     grid-row-start: 4;
-    grid-column-start: 1;
+    grid-column-start: 3;
   }
 
   li[data-name="Deep Wounds"] {
     grid-row-start: 4;
-    grid-column-start: 7;
+    grid-column-start: 10;
   }
 
   li[data-name="Champion's Stance"] {
-    @apply lg:transform lg:-translate-y-12;
     grid-row-start: 5;
-    grid-column-start: 4;
+    grid-column-start: 7;
   }
 
   li[data-name="Barbarian"] {
-    @apply lg:transform lg:-translate-y-12;
+    @apply lg:transform lg:translate-y-8;
     grid-row-start: 6;
-    grid-column-start: 4;
+    grid-column-start: 7;
   }
 }
