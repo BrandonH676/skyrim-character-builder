@@ -36,7 +36,7 @@ const removeSkill = (perk) => {
   <div class="w-11/12 mx-auto pb-28 md:pb-32 lg:flex lg:w-full lg:px-4 lg:pb-28 xl:w-11/12 xl:px-0">
   
     <!-- Skill Cards Wrapper -->
-    <div class="grid w-full grid-cols-8 gap-4 mx-auto md:w-3/4 lg:w-30% lg:h-none lg:mx-0 lg:pt-32">
+    <div class="grid w-full grid-cols-8 gap-4 mx-auto md:w-3/4 lg:w-30% lg:h-0-percent lg:mx-0 lg:pt-32">
       <div
         v-for="skill in skills"
         :key="skill.name"

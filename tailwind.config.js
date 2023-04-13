@@ -36,7 +36,7 @@ module.exports = {
         '0.625': '0.625rem',
       },
       height: {
-        'none': '0%',
+        '0-percent': '0%',
         '140': '35rem',
         '112': '28rem',
         'min-content': 'min-content',
