@@ -6,9 +6,3 @@
 button {
   outline: none !important
 }
-
-.lg-h-0-percent {
-  @screen lg {
-    height: 0%;
-  }
-}
